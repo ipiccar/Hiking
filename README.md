@@ -1,1 +1,1 @@
-# HikingGo
+# Hiking
