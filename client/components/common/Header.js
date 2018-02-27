@@ -1,19 +1,19 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Header  = ({props}) =>
+const Header  = ({headerText}) =>
 {const {textStyle, viewStyle} = styles;
 
 
     return (
         <View style={viewStyle}>
             <Text style={textStyle}>
-                {props.headerText}
+                {headerText}
             </Text>
         </View>
             );
 
-};
+}
 
 const styles = {
     textStyle :{
@@ -38,4 +38,4 @@ const styles = {
     }
 };
 
-export {Header};
+export { Header} ;

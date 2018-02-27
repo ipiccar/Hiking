@@ -1,9 +1,8 @@
 import React from 'react';
 import { TextInput, Text, View } from 'react-native';
 
-const Input  = ({label, value, onChangeText, autoCorrect, placeholder}) => {
+const Input = ({label, value, onChangeText, placeholder}) => {
     const {textStyle, textInputStyle, containerStyle} = styles;
-
 
     return (
         <View style={containerStyle}>
@@ -14,16 +13,16 @@ const Input  = ({label, value, onChangeText, autoCorrect, placeholder}) => {
                 value={value}
                 style={textInputStyle}
                 onChangeText={onChangeText}
-                autoCorrect={autoCorrect}
+                autoCorrect={false}
                 placeholder={placeholder}
             />
         </View>
     );
 
-};
+}
 
 const styles = {
-    textStyle :{
+    textStyle:{
         fontSize:18,
         addingLeft:20,
         flex:1
@@ -47,4 +46,4 @@ const styles = {
     }
 };
 
-export {Input};
+export { Input };

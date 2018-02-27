@@ -13,7 +13,7 @@ return (
            </TouchableOpacity>
         );
 
-};
+}
 
 const styles = {
     textStyle :{
