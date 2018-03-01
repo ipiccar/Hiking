@@ -58,7 +58,10 @@ class Home extends Component {
                     {(parseInt(rowID) + 1)}{". "}{rowData.title}
                 </Text>
                 <Text style={styles.description}>
-                    {rowData.description}
+                    {rowData.name}
+                </Text>
+                <Text style={styles.description}>
+                    {rowData.address}
                 </Text>
             </View>
         )
