@@ -3,7 +3,7 @@ var User = require('../models/user');
 exports.create = function(req, res) {
     // Create and Save a new Note
     if(!req.body.name) {
-        return res.status(400).send({message: "Note can not be empty"});
+        return res.status(400).send({message: "Username can not be empty"});
     }
 
     var user = new User({name: req.body.name || "Untitled Note", address: req.body.address});

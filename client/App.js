@@ -1,4 +1,8 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store'; //Import the store
+import Home from './components/home' //Import the component file
+
 import { View, Text, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import Login from "./components/LoginForm";
@@ -14,7 +18,6 @@ class HomeScreen extends React.Component {
                 <Button
                     title="Go to Details"
                     onPress={() => {
-                        /* 1. Navigate to the Details route with params */
                         this.props.navigation.navigate('Details', {
                             itemId: 86,
                             otherParam: 'anything you want here',
@@ -36,7 +39,6 @@ class DetailsScreen extends React.Component {
         }
     };
     render() {
-        /* 2. Read the params from the navigation state */
         const { params } = this.props.navigation.state;
         const itemId = params ? params.itemId : null;
         const otherParam = params ? params.otherParam : null;
@@ -66,7 +68,7 @@ class DetailsScreen extends React.Component {
 const RootStack = StackNavigator(
     {
         Home: {
-            screen: HomeScreen,
+            screen: Home,
         },
         Details: {
             screen: DetailsScreen,
@@ -77,7 +79,6 @@ const RootStack = StackNavigator(
     },
     {
         initialRouteName: 'Home',
-        /* The header config from HomeScreen is now here */
         navigationOptions: {
             headerStyle: {
                 backgroundColor: '#f4511e',
@@ -90,8 +91,21 @@ const RootStack = StackNavigator(
     }
 );
 
+class AppWithNavigationState extends React.Component {
+    render() {
+        return (
+            <RootStack />
+        );
+    }
+}
+
+
 export default class App extends React.Component {
     render() {
-        return <RootStack />;
+        return(
+            <Provider store={store}>
+            <AppWithNavigationState />
+            </Provider>
+        )
     }
 }
