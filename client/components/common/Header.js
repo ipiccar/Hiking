@@ -18,7 +18,8 @@ const Header  = ({headerText}) =>
 const styles = {
     textStyle :{
         alignSelf:'center',
-        fontSize:20,
+        color:'#fff',
+        fontSize:26,
         fontWeight:'600',
         paddingTop:10,
         paddingBottom:10
@@ -26,9 +27,10 @@ const styles = {
     viewStyle:{
         justifyContent:'center',
         alignItems:'center',
-        backgroundColor:'#f8f8f8',
+        //backgroundColor:'#f8f8f8',
         height:60,
         paddingTop:15,
+        marginTop:45,
         shadowColor:'#000',
         shadowOffset:{width:0, height:2},
         shadowOpacity:0.2,

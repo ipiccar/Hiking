@@ -29,6 +29,7 @@ const styles = {
     },
     containerStyle:{
         height:40,
+        width:200,
         flex:1,
         flexDirection:'row',
         alignItems:'center',

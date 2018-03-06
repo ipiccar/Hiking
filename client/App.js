@@ -78,15 +78,9 @@ const RootStack = StackNavigator(
         },
     },
     {
-        initialRouteName: 'Home',
+        initialRouteName: 'Login',
         navigationOptions: {
-            headerStyle: {
-                backgroundColor: '#f4511e',
-            },
-            headerTintColor: '#fff',
-            headerTitleStyle: {
-                fontWeight: 'bold',
-            },
+            header:null
         },
     }
 );
