@@ -1,19 +1,23 @@
-const express        = require('express');
-const mongo          = require('mongodb');
-const MongoClient    = require('mongodb').MongoClient;
-const bodyParser     = require('body-parser');
-const dbConfig       = require('./config/db');
-var mongoose         = require('mongoose');
+var express = require('express');
+var bodyParser = require('body-parser');
 
-// Initialize http server
-const app = express();
+// create express app
+var app = express();
 
-const port = 8000;
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }))
 
-app.use(bodyParser.urlencoded({ extended: true }));
+// parse requests of content-type - application/json
+app.use(bodyParser.json())
+
+// Configuring the database
+var dbConfig = require('./config/database.config.js');
+var mongoose = require('mongoose');
+
+mongoose.Promise = global.Promise;
 
 mongoose.connect(dbConfig.url, {
-    //useMongoClient: true
+   // useMongoClient: true
 });
 
 mongoose.connection.on('error', function() {
@@ -23,10 +27,23 @@ mongoose.connection.on('error', function() {
 
 mongoose.connection.once('open', function() {
     console.log("Successfully connected to the database");
+})
+
+// define a simple route
+app.get('/', function(req, res){
+    res.json({"message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
 });
 
-require('./routes/user_routes.js')(app);
+// Require routes
+require('./app/routes/user.routes.js')(app);
+require('./app/routes/poi.routes.js')(app);
+require('./app/routes/leaderboard.routes.js')(app);
+require('./app/routes/challenge.routes.js')(app);
+require('./app/routes/game.routes.js')(app);
+require('./app/routes/team.routes.js')(app);
 
-app.listen(port, () => {
-    console.log('We are live on ' + port);
+
+// listen for requests
+app.listen(3000, function(){
+    console.log("Server is listening on port 3000");
 });
