@@ -1,0 +1,4 @@
+#Wed Apr 04 11:42:04 CEST 2018
+base.0=/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
