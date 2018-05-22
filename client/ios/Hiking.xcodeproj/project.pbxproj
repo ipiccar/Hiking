@@ -41,7 +41,7 @@
 		017693592CF94DC58E926477 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF1D8FA1E4643A4A18D03F2 /* libReactNativePermissions.a */; };
 		2BA70BE2D4D64CCCBF434E8C /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685AFD707E426C9ED47425 /* libRNCamera.a */; };
 		D2B0B6D288DA4AAFAEC85A72 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC431E0922247D0B246AE03 /* libBVLinearGradient.a */; };
-		E5723DA119C941A095752B16 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E1D24FAF424F83F98681 /* libAirMaps.a */; };
+		162902D095374E0EB851A18C /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A32D233C54472CAD4F4AAD /* libAirMaps.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,8 +355,8 @@
 		20685AFD707E426C9ED47425 /* libRNCamera.a */ = {isa = PBXFileReference; name = "libRNCamera.a"; path = "libRNCamera.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		84A34C3B37A44B42BBC9B5A0 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		4FC431E0922247D0B246AE03 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		709F181FB93C46649E0CA2FD /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		99E7E1D24FAF424F83F98681 /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D8A243ACCE9B45C5A9F361BF /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		36A32D233C54472CAD4F4AAD /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,7 +389,7 @@
 				017693592CF94DC58E926477 /* libReactNativePermissions.a in Frameworks */,
 				2BA70BE2D4D64CCCBF434E8C /* libRNCamera.a in Frameworks */,
 				D2B0B6D288DA4AAFAEC85A72 /* libBVLinearGradient.a in Frameworks */,
-				E5723DA119C941A095752B16 /* libAirMaps.a in Frameworks */,
+				162902D095374E0EB851A18C /* libAirMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +580,7 @@
 				27DF822EA3834D00B4684C79 /* ReactNativePermissions.xcodeproj */,
 				D9935A8524074B23B261C487 /* RNCamera.xcodeproj */,
 				84A34C3B37A44B42BBC9B5A0 /* BVLinearGradient.xcodeproj */,
-				709F181FB93C46649E0CA2FD /* AirMaps.xcodeproj */,
+				D8A243ACCE9B45C5A9F361BF /* AirMaps.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1208,10 +1208,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1240,10 +1236,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiking.app/Hiking";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
@@ -1334,10 +1326,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1376,10 +1364,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1417,10 +1401,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1457,10 +1437,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
