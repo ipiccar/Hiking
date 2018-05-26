@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { View, Image, Text, SectionList, TouchableOpacity, SafeAreaView } from 'react-native';
 import Collapsible from 'react-native-collapsible';
-import SvgUri from 'react-native-svg-uri';
 
 const sections = [
   {

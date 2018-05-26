@@ -3,399 +3,237 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_a44771d0ff5571f47d2681bb4936b4203a9b0e7e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8b6f8eaafcb2a1b22d796bf21adc28565e7417d0">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/Hiking-react-native-maps-unspecified_59bdc2472e15573fcf2de39416a6e2543aa35336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_8a4effec0dd3bff3e1612588fd16cdbf697fd91d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_2619ca0beb486fa7f15c92eb8f419618ada97c4d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_6d7318aacb4173035bec3e73744660c8c69d38fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ea0ec06830a38d08efc9045099ff90b5c6e69b93.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_604d8213cc93563d9bd7771d10b0e946abc27339.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_e71062da7cf5e4ee4df1973ae4af96a37de77d1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d35800be23c54560ebfb0707013d8860c83a5958">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.0_4286b6a4759ae0bd47bd898b3ebc820c9f774056.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2d78e12de5a6da8f368bcacef3570e8c0d6352a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_1cc9e80a2f12bce971245a65ab8b37443bcf3326.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_1d044e36435f7581eb27b5839f0b3913b691172d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_7b602002697e29e7d964119da834120b9ccdca33.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_645c5bf5a009c0e187c9c72fe5b359909f647cf9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_db8e35dde357d0610a2ae4681cfca242de0013c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d35800be23c54560ebfb0707013d8860c83a5958">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.0_bcea65cdfb37f380fee334e3178fb9fe0f474e32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_34b412ab2fbe167bc149956dc6aaa8a4e2272841.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_a704fbe6d8df6f9b90b5b0338963648fd62ec79e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c91ca3937c2f86d074cafba6d60d900e6300acc2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_3d633c515bd23b0bc8d6fccc1b0058c3b7ab92fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_2b5fca36a0ec0aa906d10e5b3a6f766b0a871a64.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_2520eb312d1c27dfd94cb624c35a34c4a788f4c8.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_f3b7750f417a1be36ead34929e3a2d312f239a20.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_8c50faf581bb416704f3a3675cfa3e049bcaae69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_7de55ea5e86e45b8093abb6dfb38d7b1e6a9898a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_7466faed4e3f2c8a97f90e2dc9edbfd811a93b20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_9c7948720988c572bab345f340486078272ea49f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_f9e1b3b064b6d1f9fab86153bb203d5778ef90c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_55dcb25e7b85b104e819e9d5dd5d21895fc54fe6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_83e53beb35169fa89b4aa4ce63be5d8ad38db976.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_1ef07174fa051f6c58c23fa365e898b3bea977b3.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_f3904a240d99574b87ed40b15c4ea87291864a02.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_b7e28a850117408e83526c863b282a22e9cf18d8.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_82589f107b3d5c39704e432e8d8e0f8311cbccd4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_f282541965bb2f190c57eabbf3bbcd386436d133.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_091620c19c66d8d548aa0c2c07c0660c2afd07c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_004fc2dc59d822835e7afe0d2c3d07e8a62e75a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_bf9b8cc2d4019d22ecbfba094a3093f03b8d8917.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e7c37c08ee8e220eb9011f376d4af2e2823d925f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4c5236242afee773e38b95766fe23907afc8945d.jar" />
+        sha1="ca12a06449df0bbfdffdcf8eb990a7d2c09df08e">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/Hiking-react-native-maps-unspecified_b1edca4538c22678f30669906fdd46f46247ed43.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_81b4c74ae92f0e5e23c3bd8fc80fa88547aab1a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0e80db9be5ee9e87aa65c5bda739aadd215d05dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_05bad4188f5eade478036e53066692543ab5d065.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_57ac6ab3f6d877b7b43de2db3cd4d36ea712564d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_84feebfd1e9f0924103997b1dc6baeabeb5e235b.jar" />
+        sha1="d35800be23c54560ebfb0707013d8860c83a5958">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.0_725d7594e73b9e3ec57a953df83abd0ed348250c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_aab777033d0b5afc5872ca20deafb77c1f9c524a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_f2cc25b950390a0de89428a5093c70c540af2801.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8b6f8eaafcb2a1b22d796bf21adc28565e7417d0">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/Hiking-react-native-maps-unspecified_beb6e3616462fcc67d2b183d8521419d389ee11c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_bd826d007944dd929b9be1bb508f799b88e95795.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_b1b0b59c6c312c94223f1cea6d94fde5fd769168.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_351654b25bcde3525f7187056069db55b77eea45.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_e4951fa642d8aa73452298ef5076a16ad09be29b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_800a53da32f5a42fa3e1c9cb87f51c28efe7183a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_3045785598e031457269ce40185d8140ab6247ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_4442ed923fbb2a92de3b9b7690ed36121b1dd8be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_fcebbb7ca7f0afb19e43e8370fe0cb220f3be71d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_c24eb2676cdfe64f72cdc6528b5415e31066c3db.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_2923a9f3562abc5e4ad2d802cc142d785f90cc65.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Icarus/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_958790958201d818ae428b655016aecd9bc0e546.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_bb38e00a6563eae845a2368844e0a1cb4ce611ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_67b2042ecac19b9ac6cc0dfe293b64714f0439ba.jar" />
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1de40caafe5c67d2e02e25ef457e886a27076d03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4dd6bff6df5076254693aac675f4a4b84061942d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_57c560e844fdaaafac91f64b4fc3a45a57146444.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_2e160682a3283ebd4307e6f97a69f42884d7313c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_57849d4a074b8ae6daf1bf3c6c9349df31674897.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b29946d7c6cda7e0043b70d6201e97b5c202073d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_20d8704ab6d25d5e0436ff9a8061bab26d7c07be.jar" />
     </item>
 
 </items>

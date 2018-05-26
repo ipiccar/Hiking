@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { Header, Card, CardSection, Input, Button, MyGradient } from "./common/Index";
+import { Header, Card, CardSection, Input, Button } from "./common/Index";
 
 class JoinGame extends Component {
 
