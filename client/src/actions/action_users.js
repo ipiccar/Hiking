@@ -64,3 +64,4 @@ function resultLogin(response){
         res: response,
         loading: false
     }
+  }
