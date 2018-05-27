@@ -2,19 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d76688fa-8855-4064-ad69-03e93175eaa4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/actions/action_users.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/containers/Login.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server/app/controllers/leaderboard.controller.js" afterPath="$PROJECT_DIR$/server/app/controllers/leaderboard.controller.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/controllers/team.controller.js" afterPath="$PROJECT_DIR$/server/app/controllers/team.controller.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/controllers/user.controller.js" afterPath="$PROJECT_DIR$/server/app/controllers/user.controller.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/models/game.model.js" afterPath="$PROJECT_DIR$/server/app/models/game.model.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/challenge.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/challenge.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/game.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/game.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/leaderboard.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/leaderboard.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/poi.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/poi.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/team.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/team.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/app/routes/user.routes.js" afterPath="$PROJECT_DIR$/server/app/routes/user.routes.js" />
-      <change beforePath="$PROJECT_DIR$/server/config/database.config.js" afterPath="$PROJECT_DIR$/server/config/database.config.js" />
+      <change beforePath="$PROJECT_DIR$/client/Router.js" afterPath="$PROJECT_DIR$/client/Router.js" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change beforePath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/client/android/.gradle/2.14.1/tasks/_react-native-maps_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build.gradle" afterPath="$PROJECT_DIR$/client/android/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-af.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-am.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-az.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-be.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bn.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-bs.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-da.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-de.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-el.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-es.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-et.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-eu.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-gl.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-gu.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-hy.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-in.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-is.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-it.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ka.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-kk.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-km.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-kn.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ky.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lo.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mk.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ml.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mn.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-mr.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ms.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-my.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ne.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pa.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-si.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sq.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ta.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-te.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-th.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-ur.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-uz.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/color.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/zip-cache/GAUaxGPtyf3zf2WUEc6pl25wmcY=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/incremental/packageDebug/zip-cache/lR7tbHjZFRTVwExrjQC7idwWRbc=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/Hiking-react-native-maps-unspecified_b1edca4538c22678f30669906fdd46f46247ed43.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_bb38e00a6563eae845a2368844e0a1cb4ce611ec.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_958790958201d818ae428b655016aecd9bc0e546.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_645c5bf5a009c0e187c9c72fe5b359909f647cf9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_351654b25bcde3525f7187056069db55b77eea45.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-animated-base-1.3.0_49d9925e20f93ddd04241c385c764f56e810ba1b.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-animated-gif-1.3.0_13058479c40984b19ff69416d3c3b1b6cc8bba48.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_57849d4a074b8ae6daf1bf3c6c9349df31674897.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b29946d7c6cda7e0043b70d6201e97b5c202073d.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0e80db9be5ee9e87aa65c5bda739aadd215d05dc.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_e4951fa642d8aa73452298ef5076a16ad09be29b.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_4442ed923fbb2a92de3b9b7690ed36121b1dd8be.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e7c37c08ee8e220eb9011f376d4af2e2823d925f.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.0_725d7594e73b9e3ec57a953df83abd0ed348250c.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_fcebbb7ca7f0afb19e43e8370fe0cb220f3be71d.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_57ac6ab3f6d877b7b43de2db3cd4d36ea712564d.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_20d8704ab6d25d5e0436ff9a8061bab26d7c07be.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_2e160682a3283ebd4307e6f97a69f42884d7313c.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_f3904a240d99574b87ed40b15c4ea87291864a02.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/debug_4a18c367c760275863840b7088135edccca7da78.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_81b4c74ae92f0e5e23c3bd8fc80fa88547aab1a9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_82589f107b3d5c39704e432e8d8e0f8311cbccd4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_57c560e844fdaaafac91f64b4fc3a45a57146444.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_f3b7750f417a1be36ead34929e3a2d312f239a20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_800a53da32f5a42fa3e1c9cb87f51c28efe7183a.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_3045785598e031457269ce40185d8140ab6247ee.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1de40caafe5c67d2e02e25ef457e886a27076d03.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4dd6bff6df5076254693aac675f4a4b84061942d.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_2923a9f3562abc5e4ad2d802cc142d785f90cc65.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/res/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/client/android/app/build/outputs/apk/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/client/android/app/src/main/java/com/hiking/MainApplication.java" afterPath="$PROJECT_DIR$/client/android/app/src/main/java/com/hiking/MainApplication.java" />
+      <change beforePath="$PROJECT_DIR$/client/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/client/android/build/intermediates/dex-cache/cache.xml" />
+      <change beforePath="$PROJECT_DIR$/client/android/settings.gradle" afterPath="$PROJECT_DIR$/client/android/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/client/ios/Hiking.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/client/ios/Hiking.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/constants.js" afterPath="$PROJECT_DIR$/client/src/actions/constants.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/containers/LoginForm.js" afterPath="$PROJECT_DIR$/client/src/containers/Main.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,32 +166,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="challenge.routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/routes/challenge.routes.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/routes/team.routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/containers/LoginForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="207">
+              <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="63" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -57,31 +179,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaderboard.routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/routes/leaderboard.routes.js">
+      <file leaf-file-name="WaitingRoom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/WaitingRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="285">
+              <caret line="22" column="117" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="117" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaderboard.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/app/controllers/leaderboard.controller.js">
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="159">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/reducers/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/controllers/team.controller.js">
+      <file leaf-file-name="JoinGame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/JoinGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/GameDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action_users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/action_users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/routes/user.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -90,44 +270,26 @@
       <file leaf-file-name="database.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/config/database.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/controllers/user.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="67" column="36" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/models/team.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app/models/user.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="15">
+              <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isAdm</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,6 +308,16 @@
         <option value="$PROJECT_DIR$/server/app/controllers/team.controller.js" />
         <option value="$PROJECT_DIR$/server/app/routes/leaderboard.routes.js" />
         <option value="$PROJECT_DIR$/server/app/controllers/leaderboard.controller.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/users.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/user.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/client/Router.js" />
+        <option value="$PROJECT_DIR$/client/src/containers/LoginForm.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/constants.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/profile.js" />
+        <option value="$PROJECT_DIR$/client/src/containers/Main.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/action_users.js" />
+        <option value="$PROJECT_DIR$/client/src/containers/Login.js" />
       </list>
     </option>
   </component>
@@ -184,8 +356,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +379,13 @@
               <item name="Hiking" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hiking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hiking" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,6 +394,20 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hiking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hiking" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hiking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hiking" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hiking" type="b2602c69:ProjectViewProjectNode" />
@@ -260,6 +451,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,12 +487,13 @@
       <updated>1526995286407</updated>
       <workItem from="1526995287858" duration="28000" />
       <workItem from="1527410641627" duration="13000" />
-      <workItem from="1527410657830" duration="3904000" />
+      <workItem from="1527410657830" duration="10914000" />
+      <workItem from="1527424673496" duration="1142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3945000" />
+    <option name="totallyTimeSpent" value="12097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -312,7 +506,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -335,12 +529,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/containers/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/WaitingRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="117" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/JoinGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/database.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="99" lean-forward="false" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+        <state relative-caret-position="105">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -349,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -375,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,15 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/user.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,61 +664,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/database.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/app/models/team.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/user.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/challenge.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app/routes/team.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/containers/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app/routes/leaderboard.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding />
+          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -465,15 +689,199 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app/controllers/leaderboard.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/challenge.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/models/challenge.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/routes/challenge.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/games.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/models/user.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/database.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/WaitingRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="117" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/JoinGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/GameDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/routes/user.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
