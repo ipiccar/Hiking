@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { Header, Card, CardSection, Input, Button, MyGradient } from "../components";
 import { connect } from 'react-redux';
 import { Actions } from "react-native-router-flux";
 
@@ -18,18 +17,6 @@ class LoginForm extends Component {
 
     checkUser() {
         this.props.dispatch(fetch_login(this.state.hikerName));
-        if(this.props.profile.type!=undefined){
-            if(this.props.profile.type.toUpperCase()=="GM"){
-                Actions.login({name: this.State.hikerName});
-            }
-            else{
-
-            }
-        }
-        else{
-
-        }
-
     }
 
     render() {
@@ -41,7 +28,7 @@ class LoginForm extends Component {
                     <ImageBackground source={require('../images/people_and_trophy.png')} style={{width:300, height:100}}/>
                 </ImageBackground>
                     <View style={styles.card}>
-                        <View style={{flex:2}}>
+                        <View>
                             <Text style={styles.title}>Choose your hiker name !</Text>
 
                             <TextInput style={styles.input}
@@ -51,14 +38,10 @@ class LoginForm extends Component {
                             autoCorrect={false}
                             returnKeyType="next"/>
                         </View>
-                        {this.props.dataReducer.loading==true ?
-                            <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
-                            : (<TouchableOpacity style={styles.buttonContainer}
+                            <TouchableOpacity style={styles.buttonContainer}
                                       onPress={()=> this.checkUser()}>
-                        <Text style={styles.buttonText}>Join</Text>
-                    </TouchableOpacity>)}
-:
-        (<ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>)}
+                        <Text style={styles.buttonText}> Join </Text>
+                    </TouchableOpacity>
                  </View>
             </View>
         );
@@ -82,8 +65,9 @@ const styles = {
     card: {
         height:260,
         backgroundColor: '#DED3BF',
+        padding:30,
         flexDirection:"column",
-        alignItems:"center",
+        alignItems:"stretch",
         justifyContent:"center",
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
@@ -105,13 +89,15 @@ const styles = {
 
 
     },
-        title:{
-            fontSize:30,
-            color:"#3A3C4A",
-            margin:10
+    title:{
+        fontSize:18,
+        color:"#3A3C4A",
+        textAlign: 'center',
+        margin:5
     },
     input: {
         height: 40,
+        width:300,
         textAlignVertical: 'top',
         textAlign: 'center',
         marginBottom: 20,

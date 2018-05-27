@@ -3,22 +3,26 @@ import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "
 import { sha256 } from 'react-native-sha256';
 import { connect } from 'react-redux';
 import {fetch_admin_login} from "../actions/action_users";
+import { Actions } from "react-native-router-flux";
 
 class Login extends Component {
 
     state={name:"", password:"", isLogged:false};
 
+    constructor(props){
+        super(props);
+        this.checkPassword=this.checkPassword.bind(this);
+    }
+
     pressLogin() {
+        this.checkPassword();
+    }
+
+    checkPassword(){
         sha256(this.state.password)
             .then(hash => {
-                this.props.dispatch(fetch_admin_login(this.state.hikerName, hash));
-
-                if(this.props.profile.password==hash){
-                    //password is right
-                }
-                else{
-                    //password is wrong
-                }
+                console.log(hash);
+                this.props.dispatch(fetch_admin_login(this.state.name, hash));
             });
     }
 
@@ -30,15 +34,15 @@ class Login extends Component {
                 </ImageBackground>
                 <View style={styles.card}>
                     <View style={{flex:2, alignItems:"center"}}>
-                        <Text style={styles.title}>Join a game</Text>
+                        <Text style={styles.title}>Game master login</Text>
 
                         <TextInput style={styles.input}
-                                   value={this.state.name}
-                                   onChangeText={(hikerName) => this.setState({name})}
+                                   value={this.props.profile.hikerName}
+                                   onChangeText={(name) => this.setState({name})}
                                    autoCapitalize="none"
                                    autoCorrect={false}
                                    returnKeyType="next"/>
-                        <TextInput
+                        <TextInput style={styles.input}
                             value={this.state.password}
                             onChangeText={(password) => this.setState({password})}
                             autoCapitalize="none"
@@ -74,7 +78,7 @@ const styles = {
         flex: 3,
         backgroundColor: '#DED3BF',
         flexDirection:"column",
-        alignItems:"center",
+        alignItems:"stretch",
         justifyContent:"center",
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
@@ -98,12 +102,13 @@ const styles = {
     },
     title:{
         textAlign:"center",
-        fontSize:30,
+        fontSize:22,
         color:"#3A3C4A",
         margin:10
     },
     input: {
         height: 40,
+        width:300,
         textAlignVertical: 'top',
         textAlign: 'center',
         marginBottom: 20,
@@ -162,7 +167,10 @@ export function postForm(path, form) {
 }
 const mapStateToProps = (state, ownProps) => ({
     routes: state.routes,
-    games: state.games
+    games: state.games,
+    profile: state.profile,
+    dataReducer: state.dataReducer,
+
 })
 
-export default connect(mapStateToProps)(JoinGame)
+export default connect(mapStateToProps)(Login)
