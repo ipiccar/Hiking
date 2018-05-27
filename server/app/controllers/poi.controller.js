@@ -50,7 +50,7 @@ exports.findOne = function(req, res) {
 
 exports.update = function(req, res) {
     // Update a poi identified by the poiId in the request
-    poi.findById(req.params.poiId, function(err, poi) {
+    Poi.findById(req.params.poiId, function(err, poi) {
         if(err) {
             console.log(err);
             if(err.kind === 'ObjectId') {
