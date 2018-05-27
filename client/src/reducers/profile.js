@@ -1,5 +1,6 @@
 import {
   LOGGED_IN,
+    ADMIN_LOGIN,
   CHOOSE_GAME,
   EDIT_GAME,
   NO_NETWORK,
@@ -15,10 +16,15 @@ const games = (state = [], action) => {
       ...state,
       userId: action._id,
       name: action.name,
-      type: action.type,
+      type: action.user_type,
       isEditing: false,
       isPlaying: false
     })
+      case ADMIN_LOGIN:
+          return Object.assign({}, state, {
+              ...state,
+              passwordMatched:action.res
+          })
     case CHOOSE_GAME:
     return Object.assign({}, state, {
       ...state,
