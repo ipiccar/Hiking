@@ -5,3 +5,4 @@ export * from './Header';
 export * from './Input';
 export * from './MySwitch';
 export * from './IgnMap';
+export * from './CustomMarker'

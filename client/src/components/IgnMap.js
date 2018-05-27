@@ -2,11 +2,11 @@ import React from 'react'
 //import { MapView, FileSystem, Constants } from 'expo'
 import MapView from 'react-native-maps';
 
-  const IgnMap = ({onRegionChange, urlTemplate}) => {
+  const IgnMap = ({onRegionChange, urlTemplate, children}) => {
       return (
         <MapView
           style={{ flex: 1 }}
-          minZoomLevel = {7}
+          minZoomLevel = {5}
           maxZoomLevel = {15}
           showsUserLocation = {true}
           showsCompass = {true}
@@ -22,6 +22,7 @@ import MapView from 'react-native-maps';
             longitudeDelta: 1,
           }}
           onRegionChange={onRegionChange}>
+          {children}
           <MapView.UrlTile urlTemplate={urlTemplate} zIndex={1}/>
         </MapView>
     )

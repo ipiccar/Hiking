@@ -1,17 +1,10 @@
 import {
-  INIT_GAMES,
-  LOADING
+  INIT_GAMES
 } from "../actions/constants"
 
 
 const games = (state = [], action) => {
   switch (action.type) {
-    case LOADING:
-    return Object.assign({}, state, {
-      ...state,
-        byId: state.byId,
-        loading: action.loading
-    })
     case INIT_GAMES:
     return Object.assign({}, state, {
       ...state,
@@ -27,10 +20,10 @@ function listGames(action){
   gameList = []
   action.forEach(function(game,index){
     gameList[index] = {
-      id: game.id,
+      id: game._id,
       name: game.name,
       QRcode: game.QRcode,
-      nbChallenges: game.pois.lenght
+      nbPointsOfInterest: game.pois.lenght
     }
   })
   return gameList;

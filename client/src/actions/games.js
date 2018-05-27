@@ -1,6 +1,7 @@
 import {
   INIT_GAMES,
-  LOADING
+  LOADING,
+  url
 } from "./constants"
 
 const myRequest = new Request(url+'/game', {method: 'GET'});
@@ -33,7 +34,15 @@ export function getGames() {
   }
 }
 
+
 //Dispatchers
+
+export function chooseGame(gameId) {
+  return {
+    type: CHOOSE_GAME,
+    gameId: gameId
+  }
+}
 
 function isFetching(){
   return {
