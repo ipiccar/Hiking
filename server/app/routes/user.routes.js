@@ -3,20 +3,23 @@ module.exports = function(app) {
     var user = require('../controllers/user.controller.js');
 
     // Create a new user
-    app.post('/user', user.create);
+    app.post('/users', user.create);
 
     // Retrieve all user
-    app.get('/user', user.findAll);
+    app.get('/users', user.findAll);
 
     // Retrieve a single user with userId
-    app.get('/user/:userId', user.findOne);
+    app.get('/users/:userId', user.findOne);
 
     // Retrieve a single user with userName
-    app.get('/user/name/:userName', user.findOneByName);
+    app.get('/users/name/:userName', user.findOneByName);
+
+    // Retrieve a single user with userId
+    app.get('/users/:userName/:hashedPassword', user.login);
 
     // Update a user with userId
-    app.put('/user/:userId', user.update);
+    app.put('/users/:userId', user.update);
 
     // Delete a user with userId
-    app.delete('/user/:userId', user.delete);
+    app.delete('/users/:userId', user.delete);
 }

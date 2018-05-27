@@ -29,6 +29,18 @@ exports.findAll = function(req, res) {
     });
 };
 
+exports.findAllTeamsFromGame = function(req, res) {
+    // Retrieve and return all games from the database.
+    Team.find({gameId:req.params.gameId}, function(err, teams){
+        if(err) {
+            console.log(err);
+            res.status(500).send({message: "Some error occurred while retrieving teams.", error:err});
+        } else {
+            res.send(teams);
+        }
+    });
+};
+
 exports.findOne = function(req, res) {
     // Find a single team with a gameId
     Team.findById(req.params.teamId, function(err, team) {

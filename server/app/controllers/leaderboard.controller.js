@@ -49,6 +49,25 @@ exports.findOne = function(req, res) {
     });
 };
 
+exports.findOneByGameId = function(req, res) {
+    // Find a single leaderboard with a noteId
+    Leaderboard.findById({gameId:req.params.gameId}, function(err, leaderboard) {
+        if(err) {
+            console.log(err);
+            if(err.kind === 'ObjectId') {
+                return res.status(404).send({message: "leaderboard not found for game " + req.params.gameId});
+            }
+            return res.status(500).send({message: "Error retrieving leaderboard with gameId " + req.params.gameId});
+        }
+
+        if(!leaderboard) {
+            return res.status(404).send({message: "leaderboard not found for gameId " + req.params.gameId});
+        }
+
+        res.send(leaderboard);
+    });
+};
+
 exports.update = function(req, res) {
     // Update a note identified by the noteId in the request
     Leaderboard.findById(req.params.leaderboardId, function(err, leaderboard) {

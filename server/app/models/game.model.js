@@ -6,7 +6,7 @@ const connection = require('../../config/database.config.js');
 
 var gameSchema = new Schema({
 	name: String,
-	QRcode: String,
+	description: String,
 	pois: [poiSchema],
 	gms: [userSchema],
 });
