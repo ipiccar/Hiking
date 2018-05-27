@@ -13,6 +13,7 @@ if(!req.body.name) {
             res.status(500).send({message: "Some error occurred while creating the game."});
         } else {
             res.send(data);
+			console.log("New game saved");
         }
     });
 };
@@ -23,6 +24,7 @@ exports.findAll = function(req, res) {
             console.log(err);
             res.status(500).send({message: "Some error occurred while retrieving game."});
         } else {
+			console.log("Retrieved all games");
             res.send(games);
         }
     });
@@ -42,7 +44,7 @@ exports.findOne = function(req, res) {
         if(!game) {
             return res.status(404).send({message: "game not found with id " + req.params.gameId});            
         }
-
+		console.log("single game with gameid");
         res.send(game);
     });
 };
@@ -71,6 +73,7 @@ exports.update = function(req, res) {
             if(err) {
                 res.status(500).send({message: "Could not update game with id " + req.params.gameId});
             } else {
+				console.log("updated game with gameid");
                 res.send(data);
             }
         });
@@ -91,6 +94,7 @@ exports.delete = function(req, res) {
         if(!game) {
             return res.status(404).send({message: "game not found with id " + req.params.gameId});
         }
+		console.log("Game deleted");
         res.send({message: "game deleted successfully!"})
     });
 };

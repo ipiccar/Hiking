@@ -13,6 +13,7 @@ if(!req.body.name) {
             res.status(500).send({message: "Some error occurred while creating the Team."});
         } else {
             res.send(data);
+			console.log("Create team ok");
         }
     });
 };
@@ -25,6 +26,7 @@ exports.findAll = function(req, res) {
             res.status(500).send({message: "Some error occurred while retrieving team."});
         } else {
             res.send(teams);
+			console.log("All team getted ok");
         }
     });
 };
@@ -37,12 +39,13 @@ exports.findAllTeamsFromGame = function(req, res) {
             res.status(500).send({message: "Some error occurred while retrieving teams.", error:err});
         } else {
             res.send(teams);
+			console.log("All teams from gameid ok");
         }
     });
 };
 
 exports.findOne = function(req, res) {
-    // Find a single team with a gameId
+    // Find a single team with a teamId
     Team.findById(req.params.teamId, function(err, team) {
         if(err) {
             console.log(err);
@@ -56,11 +59,12 @@ exports.findOne = function(req, res) {
             return res.status(404).send({message: "team not found with id " + req.params.teamId});            
         }
         res.send(team);
+		console.log("Find single team ok");
     });
 };
 
 exports.update = function(req, res) {
-    // Update a game identified by the gameId in the request
+    // Update a team identified by the teamId in the request
     Team.findById(req.params.teamId, function(err, team) {
         if(err) {
             console.log(err);
@@ -85,6 +89,7 @@ exports.update = function(req, res) {
                 res.status(500).send({message: "Could not update team with id " + req.params.teamId});
             } else {
                 res.send(data);
+				console.log("update team with team id ok");
             }
         });
     });
@@ -104,7 +109,7 @@ exports.delete = function(req, res) {
         if(!team) {
             return res.status(404).send({message: "team not found with id " + req.params.teamId});
         }
-
+		console.log("Deleted team ok");
         res.send({message: "team deleted successfully!"})
     });
 };
