@@ -72,10 +72,14 @@ exports.update = function(req, res) {
         if(!team) {
             return res.status(404).send({message: "team not found with id " + req.params.teamId});            
         }
-			team.gameId = req.body.gameId;
-			team.name = req.body.name;
-			team.challenges = req.body.challenges;
-			team.gms = req.body.gms;
+			if(req.body.gameId != null){
+			team.gameId = req.body.gameId;}
+			if(req.body.name != null){
+			team.name = req.body.name;}
+			if(req.body.challenges != null){
+			team.challenges = req.body.challenges;}
+			if(req.body.gms != null){
+			team.gms = req.body.gms;}
         team.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update team with id " + req.params.teamId});

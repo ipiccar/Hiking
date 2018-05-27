@@ -59,14 +59,32 @@ exports.update = function(req, res) {
         if(!challenge) {
             return res.status(404).send({message: "challenge not found with id " + req.params.challengeId});            
         }
-        challenge.poiId = req.body.poiId;
-		challenge.name = req.body.name;
-		challenge.type = req.body.type;
-		challenge.isDone = req.body.isDone;
-		challenge.points = req.body.points;
-		challenge.pointsWon = req.body.pointsWon;
-		challenge.penalityTime = req.body.penalityTime;
-		challenge.vari = req.body.vari;
+        if(!challenge) {
+            return res.status(404).send({message: "challenge not found with id " + req.params.challengeId});            
+        }
+		if(req.body.poiId != null){
+			challenge.poiId = req.body.poiId;}
+		
+		if(req.body.name != null){
+			challenge.name = req.body.name;}
+		
+		if(req.body.type != null){
+			challenge.type = req.body.type;}
+		
+		if(req.body.isDone != null){
+			challenge.isDone = req.body.isDone;}
+		
+		if(req.body.points != null){
+			challenge.points = req.body.points;}
+		
+		if(req.body.pointsWon != null){
+			challenge.pointsWon = req.body.pointsWon;}
+		
+		if(req.body.penalityTime != null){
+			challenge.penalityTime = req.body.penalityTime;}
+		
+		if(req.body.vari != null){
+			challenge.vari = req.body.vari;}
         challenge.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update challenge with id " + req.params.challengeId});

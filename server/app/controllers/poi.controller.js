@@ -59,14 +59,20 @@ exports.update = function(req, res) {
         if(!poi) {
             return res.status(404).send({message: "poi not found with id " + req.params.poiId});            
         }
-        poi.name = req.body.name;
-        poi.challengeId = req.body.challengeId;
-		poi.name = req.body.name; 
-		poi.description = req.body.description;
-		poi.coordX = req.body.coordX; 
-		poi.coordY = req.body.coordY;
-		poi.notificationRange =  req.body.notificationRange;
-		poi.notificationMessage = req.body.notificationMessage;
+        if(req.body.name != null){
+        poi.name = req.body.name;}
+		if(req.body.challengeId != null){
+        poi.challengeId = req.body.challengeId;}
+		if(req.body.description != null){
+        poi.description = req.body.description;}
+		if(req.body.coordX != null){
+        poi.coordX = req.body.coordX;}
+		if(req.body.coordY != null){
+        poi.coordY = req.body.coordY;}
+		if(req.body.notificationRange != null){
+        poi.notificationRange = req.body.notificationRange;}
+		if(req.body.notificationMessage != null){
+        poi.notificationMessage = req.body.notificationMessage;}
         poi.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update poi with id " + req.params.poiId});

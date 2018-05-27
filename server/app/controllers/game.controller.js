@@ -59,7 +59,14 @@ exports.update = function(req, res) {
         if(!game) {
             return res.status(404).send({message: "game not found with id " + req.params.gameId});            
         }
-		game = req.body;
+		if (req.body.name != null){
+		game.name = req.body.name}
+		if (req.body.QRcode != null){
+		game.QRcode = req.body.QRcode}
+		if (req.body.pois != null){
+		game.pois = req.body.pois}
+		if (req.body.gms != null){
+		game.gms = req.body.gms}
         game.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update game with id " + req.params.gameId});
