@@ -46,6 +46,7 @@ exports.findOne = function(req, res) {
     });
 };
 
+
 exports.findOneByName = function(req, res) {
     // Find a single user with a userName
     User.findOne({name:req.params.userName}, function(err, user) {
