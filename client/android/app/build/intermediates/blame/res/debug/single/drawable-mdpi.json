@@ -1,610 +1,962 @@
 [
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_focused_holo.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_16_roseliere.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_16_roseliere.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_elevation.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_elevation.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_3_mixte.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_3_mixte.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_bh_logo_white.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_bh_logo_white.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_land.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_land.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_focused_holo.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_18_pelouse.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_18_pelouse.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_industry.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_industry.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_marker_dark1.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_marker_dark1.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_building.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_building.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_focused_holo.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_border.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_border.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_focused_holo.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_avatar.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_avatar.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\node_modules_reactnativerouterflux_node_modules_reactnavigation_src_views_assets_backiconmask.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativerouterflux_node_modules_reactnavigation_src_views_assets_backiconmask.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_profile_team_brown.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_profile_team_brown.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_name.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_name.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_pin_white.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_pin_white.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_9_surface_cultivee.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_9_surface_cultivee.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_people_and_trophy.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_people_and_trophy.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\node_modules_reactnativerouterflux_node_modules_reactnavigation_src_views_assets_backicon.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativerouterflux_node_modules_reactnavigation_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_13_pepiniere.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_13_pepiniere.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_6_lande.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_6_lande.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_electric.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_electric.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_satelite.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_satelite.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_14_rochers.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_14_rochers.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\node_modules_reactnativerouterflux_images_menu_burger.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativerouterflux_images_menu_burger.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_validate_white.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_validate_white.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_20_slikke.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_20_slikke.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png",
-        "source": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_4_jardin.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_4_jardin.png"
     },
     {
-        "merged": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_17_vegetation.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_17_vegetation.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_10_verger.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_10_verger.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_12_peupleraie.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_12_peupleraie.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_15_sable.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_15_sable.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_5_cimetiere.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_5_cimetiere.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_11_prairie_permanente.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_11_prairie_permanente.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_arrow_right_brown.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_arrow_right_brown.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_notification_white.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_notification_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_qr.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_qr.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_1_brousailles.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_1_brousailles.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_22_marecageux.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_22_marecageux.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_19_aire_sterile.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_19_aire_sterile.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_leaderboard_white.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_leaderboard_white.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_plant.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_plant.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_8_lande_buisson.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_8_lande_buisson.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_water.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_water.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_marker_dark2.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_marker_dark2.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_7_lande_arbres.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_7_lande_arbres.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_21_marais.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_21_marais.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_2_confieres.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_2_confieres.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_legend_0_feuillus.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_legend_0_feuillus.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\src_images_icon_road.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\src_images_icon_road.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\node_modules_reactnativerouterflux_images_back_chevron.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativerouterflux_images_back_chevron.png"
+    },
+    {
+        "merged": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     }
 ]

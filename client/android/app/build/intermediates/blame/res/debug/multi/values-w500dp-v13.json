@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+        "outputFile": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w500dp/values-w500dp.xml",
+                    "file": "C:\\Users\\hendrikdebeuf2\\node\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w500dp\\values-w500dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+        "outputFile": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/Icarus/Desktop/nike/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w500dp/values-w500dp.xml",
+                    "file": "C:\\Users\\Icarus\\Desktop\\nike\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w500dp\\values-w500dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+        "outputFile": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/Icarus/WebstormProjects/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w500dp/values-w500dp.xml",
+                    "file": "C:\\HikingProjectPro\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w500dp\\values-w500dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+        "outputFile": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +83,31 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w500dp/values-w500dp.xml",
+                    "file": "C:\\Users\\Icarus\\WebstormProjects\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w500dp\\values-w500dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 54,
+                        "endOffset": 333
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Icarus\\Desktop\\Hiking\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w500dp\\values-w500dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -3,255 +3,255 @@
 
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_4442ed923fbb2a92de3b9b7690ed36121b1dd8be.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_fcebbb7ca7f0afb19e43e8370fe0cb220f3be71d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_2923a9f3562abc5e4ad2d802cc142d785f90cc65.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_958790958201d818ae428b655016aecd9bc0e546.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_645c5bf5a009c0e187c9c72fe5b359909f647cf9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_f3b7750f417a1be36ead34929e3a2d312f239a20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_f3904a240d99574b87ed40b15c4ea87291864a02.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_82589f107b3d5c39704e432e8d8e0f8311cbccd4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e7c37c08ee8e220eb9011f376d4af2e2823d925f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/animated-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ff997c37654bead6c259c0b124d52bdc944f5bff">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-animated-base-1.3.0_49d9925e20f93ddd04241c385c764f56e810ba1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/Hiking/react-native-maps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca12a06449df0bbfdffdcf8eb990a7d2c09df08e">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/Hiking-react-native-maps-unspecified_b1edca4538c22678f30669906fdd46f46247ed43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_bb38e00a6563eae845a2368844e0a1cb4ce611ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1de40caafe5c67d2e02e25ef457e886a27076d03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/animated-gif/1.3.0/jars/classes.jar"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-gif\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5f79b1232c817718a764464331f75b7c6b0b4da2">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-animated-gif-1.3.0_13058479c40984b19ff69416d3c3b1b6cc8bba48.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-gif-1.3.0_d392fb309faabecb57c00f26c591f6b04903c75a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_81b4c74ae92f0e5e23c3bd8fc80fa88547aab1a9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4dd6bff6df5076254693aac675f4a4b84061942d.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_8761a4ffed6c83d187910457068e6e39dfd45570.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\Hiking\react-native-maps\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="634269d826283e4221210b70e7ebcb44b6e7d918">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\Hiking-react-native-maps-unspecified_5b3d287c3bc3ffde4fb9bc12e89740915a7704cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_57c560e844fdaaafac91f64b4fc3a45a57146444.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_15e9fa487887f87fef7794f871d7dc73386f437c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_2e160682a3283ebd4307e6f97a69f42884d7313c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0e80db9be5ee9e87aa65c5bda739aadd215d05dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_57ac6ab3f6d877b7b43de2db3cd4d36ea712564d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d35800be23c54560ebfb0707013d8860c83a5958">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.0_725d7594e73b9e3ec57a953df83abd0ed348250c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_351654b25bcde3525f7187056069db55b77eea45.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_e4951fa642d8aa73452298ef5076a16ad09be29b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_57849d4a074b8ae6daf1bf3c6c9349df31674897.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b29946d7c6cda7e0043b70d6201e97b5c202073d.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_23687a26178f70d80e9d75f4b969d89a1e784310.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_11373ebc114ff269ab96d0a3df0fa53f17b3f78c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d35800be23c54560ebfb0707013d8860c83a5958">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.0_584d6176fe61da627d52343ea049644af52686f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_6d074c5238d62a5b5e83ba5f45082f27f56ae739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_800a53da32f5a42fa3e1c9cb87f51c28efe7183a.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_e32f8bfe25b951a56113a3fa2f53bd213d976821.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_3045785598e031457269ce40185d8140ab6247ee.jar" />
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_3f8f5ad64b7f85b97851eb3b43ab4f60a8b7c14b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_20d8704ab6d25d5e0436ff9a8061bab26d7c07be.jar" />
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.2.4_497a01404efd8428a49e7e47c2d7bcdc02f8abbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_8b03505ceb98a4089c9a0e3cd7661ba510282433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_cc2a5b75487378c8aa2b8e2cc2e50f69c79faf17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_56009f117b455c7ccbe53e410f42cd379826ee1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.2.4_e1458edd4d34ff3bcffc7cf7e8dec82bb4c21b61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.2.4_95c1d48622d4cc9fbf79b8702cea3788160cf040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_9f186eec0ec5373f36d87a2ff0fc2cf087fada9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_f8702ce18325e648fa241f31f26caad7be9978ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_39ed06109501e62de00a5882f09beb36f7e28175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_58be013c729bd180a1eb1374841b17de07b27b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.2.4_ac51c815d8b2a3d7bb8e3fd1989f498d24e34e47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_8c2371926528a2b32f3d3a2f638d6acc5c23adae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ec7ad40a5dd4de74d715669ae416332a346e9b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_d0997c0cc8967d2bf01d4e616f184cbb20f64968.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_b9c6734d820f4da6232a5e902704efd5ace4ccb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_d5e569610d425cf62586ebc3dcfe2369beb633f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\haubo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_9f8b7d4fda2ffed836c2191e35dc6e2ed5c9bd19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ff997c37654bead6c259c0b124d52bdc944f5bff">
+        <dex dex="C:\HikingProjectPro\Hiking\client\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-base-1.3.0_e5f3368771d8f5fd3284bb8aece99dad3bbc878b.jar" />
     </item>
 
 </items>
