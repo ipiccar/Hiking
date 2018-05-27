@@ -3,28 +3,10 @@ import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "
 import { sha256 } from 'react-native-sha256';
 import { connect } from 'react-redux';
 import {fetch_admin_login} from "../actions/action_users";
-import { Actions } from "react-native-router-flux";
 
-class Login extends Component {
+class AdminMain extends Component {
 
-    state={name:"", password:"", isLogged:false};
-
-    constructor(props){
-        super(props);
-        this.checkPassword=this.checkPassword.bind(this);
-    }
-
-    pressLogin() {
-        this.checkPassword();
-    }
-
-    checkPassword(){
-        sha256(this.state.password)
-            .then(hash => {
-                console.log(hash);
-                this.props.dispatch(fetch_admin_login(this.state.name, hash));
-            });
-    }
+    state={};
 
     render() {
         return (
@@ -33,27 +15,24 @@ class Login extends Component {
                     <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
                 </ImageBackground>
                 <View style={styles.card}>
-                    <View style={{flex:2, alignItems:"center"}}>
-                        <Text style={styles.title}>Game master login</Text>
-
-                        <TextInput style={styles.input}
-                                   value={this.props.profile.hikerName}
-                                   onChangeText={(name) => this.setState({name})}
-                                   autoCapitalize="none"
-                                   autoCorrect={false}
-                                   returnKeyType="next"/>
-                        <TextInput style={styles.input}
-                            value={this.state.password}
-                            onChangeText={(password) => this.setState({password})}
-                            autoCapitalize="none"
-                            autoCorrect={false}
-                            secureTextEntry={true}
-                            returnKeyType="next"/>
+                    <View style={styles.minicard}>
+                        <View style={{flexDirection:"row", justifyContent:"space-between", padding:10}}>
+                            <Image source={require('../images/icon_trophy_brown.png')} style={{width:40, height:40, marginRight:5}}/>
+                            <View style={{flexDirection:"column", justifyContent:"space-between"}}>
+                            <Text style={styles.title}>Start a game</Text>
+                            <Text style={styles.text}>You will be able to share the game QR-code and monitor the game.</Text>
+                            </View>
+                        </View>
                     </View>
-                    <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.pressLogin()}>
-                        <Text style={styles.buttonText}>Login</Text>
-                    </TouchableOpacity>
+                    <View style={styles.minicard}>
+                        <View style={{flexDirection:"row", justifyContent:"space-between", padding:10}}>
+                            <Image source={require('../images/icon_map_game_brown.png')} style={{width:40, height:40, marginRight:5}}/>
+                            <View style={{flexDirection:"column",justifyContent:"space-between"}}>
+                                <Text style={styles.title}>Edit a game</Text>
+                                <Text style={styles.text}>This includes editing map pins, challenges and creating new games.</Text>
+                            </View>
+                        </View>
+                    </View>
                 </View>
             </View>
         );
@@ -76,9 +55,10 @@ const styles = {
     },
     card: {
         flex: 3,
+        padding:20,
         backgroundColor: '#DED3BF',
         flexDirection:"column",
-        alignItems:"stretch",
+        alignItems:"center",
         justifyContent:"center",
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
@@ -86,6 +66,16 @@ const styles = {
         shadowRadius: 2,
         elevation: 1
 
+    },
+    minicard:{
+        borderColor:"#8F6C5C",
+        margin:10,
+        padding:10,
+        shadowColor: '#000',
+        shadowOffset: {width: 0, height: 2},
+        shadowOpacity: 0.1,
+        shadowRadius: 2,
+        elevation: 1
     },
     container: {
         backgroundColor: 'rgba(255,255,255,0.7)',
@@ -101,14 +91,12 @@ const styles = {
 
     },
     title:{
-        textAlign:"center",
         fontSize:22,
         color:"#3A3C4A",
         margin:10
     },
     input: {
         height: 40,
-        width:300,
         textAlignVertical: 'top',
         textAlign: 'center',
         marginBottom: 20,
@@ -131,8 +119,7 @@ const styles = {
         fontWeight: '700'
     },
     text: {
-        color: '#5B343C',
-        textAlign: 'center',
+        color: '#5B343C'
     },
     centerText: {
         flex: 1,
@@ -167,10 +154,7 @@ export function postForm(path, form) {
 }
 const mapStateToProps = (state, ownProps) => ({
     routes: state.routes,
-    games: state.games,
-    profile: state.profile,
-    dataReducer: state.dataReducer,
-
+    games: state.games
 })
 
-export default connect(mapStateToProps)(Login)
+export default connect(mapStateToProps)(AdminMain)

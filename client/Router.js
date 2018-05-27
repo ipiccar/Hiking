@@ -1,13 +1,16 @@
 import React from 'react';
 import { Provider, connect } from 'react-redux';
-import { Scene, Router, Stack, Actions, Drawer, ActionConst } from 'react-native-router-flux';
-import LoginForm from './src/containers/Main';
+import { Scene, Router, Stack, Actions, Drawer } from 'react-native-router-flux';
+import Main from './src/containers/Main';
+import LegendActivity from './src/containers/LegendActivity';
 import JoinGame from "./src/containers/JoinGame";
 import GameDetails from "./src/containers/GameDetails";
 import TeamList from "./src/containers/TeamList";
 import WaitingRoom from "./src/containers/WaitingRoom";
 import PlayerList from "./src/containers/PlayerList";
 import MapActivity from "./src/containers/MapActivity";
+import Login from "./src/containers/Login";
+import AdminMain from "./src/containers/AdminMain";
 
 const RouterWithRedux = connect()(Router);
 
@@ -17,7 +20,9 @@ const RouterComponent = ({ store }) => {
         <RouterWithRedux>
           <Router>
               <Stack key="root">
-                  <Scene key="login" component={LoginForm} title="Login" hideNavBar={true}/>
+                  <Scene key="main" component={Main} title="Welcome" hideNavBar={true} />
+                  <Scene key="login" component={Login} title="Login" hideNavBar={true}/>
+                  <Scene key="adminMain" component={AdminMain} title="Main" hideNavBar={true} initial/>
                   <Scene key="scan" component={JoinGame} title="Scan" hideNavBar={true}/>
                   <Scene key="gdetail" component={GameDetails} title="Game Details" hideNavBar={true} />
                   <Scene key="teamList" component={TeamList} title="Team List" hideNavBar={true}/>

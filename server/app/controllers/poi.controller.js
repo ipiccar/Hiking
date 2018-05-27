@@ -11,6 +11,7 @@ if(!req.body.challengeId) {
             res.status(500).send({message: "Some error occurred while creating the POI."});
         } else {
             res.send(data);
+			console.log("POI added ok");
         }
     });
 };
@@ -23,12 +24,13 @@ exports.findAll = function(req, res) {
             res.status(500).send({message: "Some error occurred while retrieving poi."});
         } else {
             res.send(pois);
+			console.log("All poi retrieved ok");
         }
     });
 };
 
 exports.findOne = function(req, res) {
-    // Find a single poi with a noteId
+    // Find a single poi with a poiId
     Poi.findById(req.params.poiId, function(err, poi) {
         if(err) {
             console.log(err);
@@ -41,14 +43,14 @@ exports.findOne = function(req, res) {
         if(!poi) {
             return res.status(404).send({message: "poi not found with id " + req.params.poiId});            
         }
-
+		console.log("find single poi with poiId");
         res.send(poi);
     });
 };
 
 exports.update = function(req, res) {
-    // Update a note identified by the noteId in the request
-    poi.findById(req.params.poiId, function(err, poi) {
+    // Update a poi identified by the poiId in the request
+    Poi.findById(req.params.poiId, function(err, poi) {
         if(err) {
             console.log(err);
             if(err.kind === 'ObjectId') {
@@ -77,6 +79,7 @@ exports.update = function(req, res) {
             if(err) {
                 res.status(500).send({message: "Could not update poi with id " + req.params.poiId});
             } else {
+				console.log("Poi updated");
                 res.send(data);
             }
         });
@@ -84,7 +87,7 @@ exports.update = function(req, res) {
 };  
 
 exports.delete = function(req, res) {
-    // Delete a note with the specified noteId in the request
+    // Delete a poi with the specified poiId in the request
     Poi.findByIdAndRemove(req.params.poiId, function(err, poi) {
         if(err) {
             console.log(err);
@@ -97,7 +100,7 @@ exports.delete = function(req, res) {
         if(!poi) {
             return res.status(404).send({message: "poi not found with id " + req.params.poiId});
         }
-
+		console.log("deleted poi ok");
         res.send({message: "poi deleted successfully!"})
     });
 };
