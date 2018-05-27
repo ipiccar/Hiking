@@ -46,6 +46,25 @@ exports.findOne = function(req, res) {
     });
 };
 
+
+exports.findOneByName = function(req, res) {
+    // Find a single user with a userName
+    User.findOne({name:req.params.userName}, function(err, user) {
+        if(err) {
+            console.log(err);
+            if(err.kind === 'ObjectId') {
+                return res.status(404).send({message: "User not found with id " + req.params.userName});
+            }
+            return res.status(500).send({message: "Error retrieving user with name " + req.params.userName});
+        }
+
+        if(!user) {
+            return res.status(404).send({message: "User not found with name " + req.params.userName});
+        }
+        res.send(user);
+    });
+};
+
 exports.update = function(req, res) {
     // Update a user identified by the userId in the request
     User.findById(req.params.userId, function(err, user) {

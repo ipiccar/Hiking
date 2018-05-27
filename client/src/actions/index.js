@@ -1,4 +1,6 @@
-export const DATA_AVAILABLE = 'DATA_AVAILABLE';
+import {
+  DATA_AVAILABLE
+} from "./constants"
 
 const myRequest = new Request('http://10.113.101.58:8000/users', {method: 'GET'});
 

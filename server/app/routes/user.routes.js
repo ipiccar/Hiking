@@ -11,6 +11,9 @@ module.exports = function(app) {
     // Retrieve a single user with userId
     app.get('/user/:userId', user.findOne);
 
+    // Retrieve a single user with userName
+    app.get('/user/name/:userName', user.findOneByName);
+
     // Update a user with userId
     app.put('/user/:userId', user.update);
 

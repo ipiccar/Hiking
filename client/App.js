@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Router from "./Router"
+import configureStore from './src/store/configureStore'
 
-type Props = {};
-export default class App extends Component<Props> {
+const store = configureStore()
+
+export default class App extends Component<> {
     render() {
         return (
-            <Router/>
+            <Router store={store}/>
         );
   }
 }
