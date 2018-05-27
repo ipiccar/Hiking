@@ -12,6 +12,7 @@ if(!req.body.name) {
             res.status(500).send({message: "Some error occurred while creating the User."});
         } else {
             res.send(data);
+			console.log("User created with success");
         }
     });
 };
@@ -24,6 +25,7 @@ exports.findAll = function(req, res) {
             res.status(500).send({message: "Some error occurred while retrieving user."});
         } else {
             res.send(users);
+			console.log("Get all users ok");
         }
     });
 };
@@ -43,6 +45,7 @@ exports.findOne = function(req, res) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});            
         }
         res.send(user);
+		console.log("Get one user OK");
     });
 };
 
@@ -62,6 +65,7 @@ exports.findOneByName = function(req, res) {
             return res.status(404).send({message: "User not found with name " + req.params.userName});
         }
         res.send(user);
+		console.log("Get user by name ok");
     });
 };
 
@@ -80,6 +84,7 @@ exports.login = function(req, res) {
             return res.status(404).send({message: "User not found with name " + req.params.userName});
         }
         res.send(user);
+		console.log("Get user by name (gms) ok");
     });
 };
 
@@ -109,6 +114,7 @@ exports.update = function(req, res) {
                 res.status(500).send({message: "Could not update user with id " + req.params.userId});
             } else {
                 res.send(data);
+				console.log("updated user ok");
             }
         });
     });
@@ -128,5 +134,6 @@ exports.delete = function(req, res) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});
         }
         res.send({message: "User deleted successfully!"})
+		console.log("User deleted ok");
     });
 };

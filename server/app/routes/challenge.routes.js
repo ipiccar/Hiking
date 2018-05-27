@@ -13,6 +13,9 @@ module.exports = function(app) {
 
     // Update a challenge with challengeId
     app.put('/challenges/:challengeId', challenge.update);
+	
+	// Update a challenge with teamId 
+    app.put('/challenges/team/:teamId', challenge.updateOneByTeamId);
 
     // Delete a challenge with challengeId
     app.delete('/challenges/:challengeId', challenge.delete);
