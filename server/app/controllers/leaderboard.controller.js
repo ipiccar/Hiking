@@ -81,9 +81,12 @@ exports.update = function(req, res) {
         if(!leaderboard) {
             return res.status(404).send({message: "leaderboard not found with id " + req.params.leaderboardId});            
         }
-        leaderboard.gameId = req.body.gameId;
-		leaderboard.poiId = req.body.poiId;
-		leaderboard.points = req.body.points;
+        if(req.body.gameId != null){
+		leaderboard.gameId = req.body.gameId;}
+        if(req.body.poiId != null){
+		leaderboard.poiId = req.body.poiId;}
+		if(req.body.points != null){
+		leaderboard.points = req.body.points;}
                 leaderboard.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update leaderboard with id " + req.params.leaderboardId});

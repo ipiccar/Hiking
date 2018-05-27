@@ -96,10 +96,14 @@ exports.update = function(req, res) {
         if(!user) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});            
         }
-			user.name = req.body.name;
-			user.type = req.body.type;
-			user.MAC = req.body.MAC;
-			user.pass = req.body.pass;
+			if(req.body.name != null){
+			user.name = req.body.name;}
+			if(req.body.type != null){
+			user.type = req.body.type;}
+			if(req.body.MAC != null){
+			user.MAC = req.body.MAC;}
+			if(req.body.pass != null){
+			user.pass = req.body.pass;}
         user.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update user with id " + req.params.userId});
