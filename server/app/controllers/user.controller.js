@@ -12,6 +12,7 @@ if(!req.body.name) {
             res.status(500).send({message: "Some error occurred while creating the User."});
         } else {
             res.send(data);
+			console.log("User created with success");
         }
     });
 };
@@ -24,6 +25,7 @@ exports.findAll = function(req, res) {
             res.status(500).send({message: "Some error occurred while retrieving user."});
         } else {
             res.send(users);
+			console.log("Get all users ok");
         }
     });
 };
@@ -43,8 +45,10 @@ exports.findOne = function(req, res) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});            
         }
         res.send(user);
+		console.log("Get one user OK");
     });
 };
+
 
 exports.findOneByName = function(req, res) {
     // Find a single user with a userName
@@ -61,6 +65,26 @@ exports.findOneByName = function(req, res) {
             return res.status(404).send({message: "User not found with name " + req.params.userName});
         }
         res.send(user);
+		console.log("Get user by name ok");
+    });
+};
+
+exports.login = function(req, res) {
+    // Find a single user with a userName
+    User.findOne({name:req.params.userName, pass:req.params.hashedPassword}, function(err, user) {
+        if(err) {
+            console.log(err);
+            if(err.kind === 'ObjectId') {
+                return res.status(404).send({message: "User not found with id " + req.params.userName});
+            }
+            return res.status(500).send({message: "Error retrieving user with name " + req.params.userName});
+        }
+
+        if(!user) {
+            return res.status(404).send({message: "User not found with name " + req.params.userName});
+        }
+        res.send(user);
+		console.log("Get user by name (gms) ok");
     });
 };
 
@@ -77,15 +101,20 @@ exports.update = function(req, res) {
         if(!user) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});            
         }
-			user.name = req.body.name;
-			user.type = req.body.type;
-			user.MAC = req.body.MAC;
-			user.pass = req.body.pass;
+			if(req.body.name != null){
+			user.name = req.body.name;}
+			if(req.body.type != null){
+			user.type = req.body.type;}
+			if(req.body.MAC != null){
+			user.MAC = req.body.MAC;}
+			if(req.body.pass != null){
+			user.pass = req.body.pass;}
         user.save(function(err, data){
             if(err) {
                 res.status(500).send({message: "Could not update user with id " + req.params.userId});
             } else {
                 res.send(data);
+				console.log("updated user ok");
             }
         });
     });
@@ -105,5 +134,6 @@ exports.delete = function(req, res) {
             return res.status(404).send({message: "User not found with id " + req.params.userId});
         }
         res.send({message: "User deleted successfully!"})
+		console.log("User deleted ok");
     });
 };

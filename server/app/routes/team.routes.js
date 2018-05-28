@@ -3,17 +3,20 @@ module.exports = function(app) {
     var team = require('../controllers/team.controller.js');
 
     // Create a new teams
-    app.post('/team', team.create);
+    app.post('/teams', team.create);
 
     // Retrieve all team
-    app.get('/team', team.findAll);
+    app.get('/teams', team.findAll);
+
+    // Retrieve all team from a game
+    app.get('/teams/game/:gameId', team.findAllTeamsFromGame);
 
     // Retrieve a single team with teamId
-    app.get('/team/:teamId', team.findOne);
+    app.get('/teams/:teamId', team.findOne);
 
     // Update a team with teamId
-    app.put('/team/:teamId', team.update);
+    app.put('/teams/:teamId', team.update);
 
     // Delete a team with teamId
-    app.delete('/team/:teamId', team.delete);
+    app.delete('/teams/:teamId', team.delete);
 }
