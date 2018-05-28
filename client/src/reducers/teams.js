@@ -1,6 +1,10 @@
 import {
   INIT_TEAMS,
-  CHOOSE_GAME
+  CHOOSE_GAME,
+    FETCH_TEAMS,
+    NEW_TEAM,
+    LEAVE_TEAM,
+    JOIN_TEAM
 } from "../actions/constants"
 
 nbTeams = 0;
@@ -16,8 +20,29 @@ const games = (state = [], action) => {
     return Object.assign({}, state, {
       ...state,
         byId: listTeams(action, state.gameId),
-        nbTeams: action.lenght
+        nbTeams: action.length
     })
+      case FETCH_TEAMS:
+          return Object.assign({}, state, {
+              ...state,
+              state.byId.map(team=>)
+              response: action.response
+          })
+      case NEW_TEAM:
+          return Object.assign({}, state, {
+              ...state,
+              response: action.response
+          })
+      case JOIN_TEAM:
+          return Object.assign({}, state, {
+              ...state,
+              res: action.res
+          })
+      case LEAVE_TEAM:
+          return Object.assign({}, state, {
+              ...state,
+              res: action.res
+          })
 
     //other actions
     default:

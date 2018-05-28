@@ -1,4 +1,4 @@
-#Sun May 27 15:09:49 CEST 2018
-base.0=/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Mon May 28 09:08:21 CEST 2018
+base.0=/Users/Icarus/Desktop/Hiking 2/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/Icarus/Desktop/Hiking 2/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -1,33 +1,37 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import { Text, View, TouchableOpacity, Image } from 'react-native';
 import { connect } from 'react-redux';
+import {join_team, leave_team} from "../actions/teams";
 
 class PlayerList extends Component{
     constructor(props) {
         super(props);
-        this.state = {teamName: "",
-            players: [{id: 1, hikerName: "Fake data 1"}, {id: 2, hikerName: "Fake data 1"}, {
-                id: 3,
-                hikerName: "Fake data 1"
-            }]
-        };
+        this.joinTeam=this.joinTeam.bind(this);
     }
+
+    state={};
+
+    joinTeam(){
+        this.props.teams.res ? this.props.dispatch(leave_team(this.props.team._id, this.props.userId))
+         : this.props.dispatch(join_team(this.props.team._id, this.props.userId));
+    }
+
     render(){
         return(
             <View style={styles.container}>
                 <View style={{flex:8}}>
-                    <Text style={styles.title}>{this.state.teamName}</Text>
-                    {this.state.players.map(player => (
-                        <View key={player.id} style={{alignItems:"flex-start",flexDirection:"row"}}>
+                    <Text style={styles.title}>{this.props.team.name}</Text>
+                    {this.props.team.users.map(player => (
+                        <View key={player._id} style={{alignItems:"flex-start",flexDirection:"row"}}>
                             <Image source={require('../images/avatar.png')} style={{width:60, height:60}}/>
-                            <Text style={styles.text}> {player.hikerName} </Text>
+                            <Text style={styles.text}> {player.name} </Text>
                         </View>
                     ))}
                 </View>
                 <View style={{flex:1, flexDirection:"row"}}>
                     <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.pressScan()}>
-                        <Text style={styles.buttonText}>Join team</Text>
+                                      onPress={()=> this.joinTeam()}>
+                        <Text style={styles.buttonText}>{this.props.teams.res ? "Leave team" : "Join team"}</Text>
                     </TouchableOpacity>
                 </View>
             </View>
@@ -106,7 +110,9 @@ const styles = {
 
 const mapStateToProps = (state, ownProps) => ({
   routes: state.routes,
-  games: state.games
+  games: state.games,
+    teams: state.teams,
+    profile: state.profile
 })
 
 export default connect(mapStateToProps)(PlayerList)

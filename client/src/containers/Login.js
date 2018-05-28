@@ -21,7 +21,6 @@ class Login extends Component {
     checkPassword(){
         sha256(this.state.password)
             .then(hash => {
-                console.log(hash);
                 this.props.dispatch(fetch_admin_login(this.state.name, hash));
             });
     }

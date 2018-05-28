@@ -3,7 +3,7 @@ import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "
 import { connect } from 'react-redux';
 import { Actions } from "react-native-router-flux";
 
-import { fetch_login } from  '../actions/action_users';
+import {create_user, fetch_login} from '../actions/action_users';
 
 
 class LoginForm extends Component {

@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { Header, Card, CardSection, Input, Button } from "../components";
 import { connect } from 'react-redux';
+import QRCodeScanner from 'react-native-qrcode-scanner';
+import { Actions } from "react-native-router-flux";
+
 
 class JoinGame extends Component {
 
-    state={qrCode:""};
-
+    state={qrCode:"", scanOn:false};
     pressScan() {
-        ;
+        this.state.scanOn ?
+            this.setState({scanOn:false}) : this.setState({scanOn:true});
+    }
+
+    onSuccess(e) {
+        this.setState({scanOn:false});
+        Actions.gdetail({gameId:e.data, userId:this.props.userId});
     }
 
     render() {
@@ -20,16 +27,21 @@ class JoinGame extends Component {
                 <View style={styles.card}>
                     <View style={{flex:2, alignItems:"center"}}>
                         <Text style={styles.title}>Join a game</Text>
-
                         <Text style={styles.text}>To join a game, please scan the QR Code provided.</Text>
-                        <Image source={require('../images/qr.png')} style={{width:150, height:150, marginTop:15}}/>
+                        {this.state.scanOn==true ? (
+                            <View style={{padding:25}}>
+                            <QRCodeScanner
+                            onRead={this.onSuccess.bind(this)}
+                            topContent={""}
+                            bottomContent={""}
+                            /></View>) :
+                            (<Image source={require('../images/qr.png')} style={{width:150, height:150, marginTop:15}}/>)}
                     </View>
 
                     <TouchableOpacity style={styles.buttonContainer}
                                       onPress={()=> this.pressScan()}>
-                        <Text style={styles.buttonText}>Scan</Text>
+                        <Text style={styles.buttonText}>{this.state.scanOn==true ? "Cancel" : "Scan"}</Text>
                     </TouchableOpacity>
-
                 </View>
             </View>
         );

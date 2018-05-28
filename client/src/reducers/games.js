@@ -1,5 +1,6 @@
 import {
-  INIT_GAMES
+  INIT_GAMES,
+    GAME_INFOS
 } from "../actions/constants"
 
 
@@ -10,6 +11,11 @@ const games = (state = [], action) => {
       ...state,
         byId: listGames(action)
     })
+      case GAME_INFOS:
+          return Object.assign({}, state, {
+              ...state,
+              response: action.response
+          })
     //other actions
     default:
       return state;

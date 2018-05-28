@@ -2,6 +2,7 @@ import {
     LOGGED_IN,
     ADMIN_LOGIN,
     LOADING,
+    NEW_USER,
     url
 } from "./constants"
 import {Actions} from "react-native-router-flux";
@@ -12,14 +13,16 @@ export function fetch_login (hikerName){
     return function(dispatch) {
 
         dispatch(isFetching());
-        console.log("Trying to acces : " + url + 'users/name/' + hikerName);
+        console.log(hikerName);
         fetch(url + 'users/name/' + hikerName)
             .then((response) => response.json())
             .then((responseJson) => {
-                console.log("Response received : " + responseJson);
+                console.log("Response received : " + responseJson.toString());
                 dispatch(userFetched(responseJson));
                 if(responseJson.type!=undefined){
                     if(responseJson.type.toUpperCase()=="ADMIN"){
+                        console.log("Admin");
+
                         Actions.login({hikerName: hikerName});
                     }
                     else{
@@ -27,12 +30,42 @@ export function fetch_login (hikerName){
                     }
                 }
                 else{
-                    Actions.scan({hikerName: hikerName});
+                    dispatch(isFetching());
+                    console.log("after isFetching");
+                    fetch(url + 'users/', {
+                        method: 'POST',
+                        headers: {
+                            Accept: 'application/json',
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            name: hikerName,
+                            MAC: "MASI123456700"
+                        }),
+                    })
+                        .then((response) => response.json())
+                        .then((responseJson) => {
+                            console.log(responseJson);
+                            dispatch(createUser(responseJson));
+                            if(responseJson._id){
+                                Actions.scan({hikerName: hikerName, userId:responseJson._id});
+                            }
+                        })
+                        .catch((error) => {
+                            console.error(error);
+                        });
                 }
+
             })
             .catch((error) => {
                 console.error(error);
             });
+
+    }
+}
+export function create_user (userName){
+    return function(dispatch) {
+
 
     }
 }
@@ -66,20 +99,28 @@ function isFetching(){
     }
 }
 
-function userFetched(response){
+function userFetched(response, res){
     return {
         type: LOGGED_IN,
         userId: response._id,
         name: response.name,
         user_type: response.type,
         pass: response.pass,
-        loading: false
+        loading: false,
+        res:res
     }
 }
 function resultLogin(response) {
     return {
         type: ADMIN_LOGIN,
         res: response,
+        loading: false
+    }
+}
+function createUser(res) {
+    return {
+        type: NEW_USER,
+        res: res,
         loading: false
     }
 }

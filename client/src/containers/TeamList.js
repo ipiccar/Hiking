@@ -1,11 +1,39 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import {Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
 import { connect } from 'react-redux';
+import {create_team, fetch_teams} from "../actions/teams";
+import { Actions } from "react-native-router-flux";
 
 class TeamList extends Component{
     constructor(props) {
         super(props);
-        this.state = {teams:[{id:1, teamName:"Fake data 1", teamSize:4}, {id:2, teamName:"Fake data 2", teamSize:6}, {id:3, teamName:"Fake data 3", teamSize:2}, {id:4, teamName:"Fake data 4", teamSize:8}]};
+        this.fetchTeams=this.fetchTeams.bind(this);
+        this.createTeam=this.createTeam.bind(this);
+        this.fetchTeams();
+    }
+
+    state = {hasJoined:false, hasCreatedTeam:false, teamName:"", modalVisible:false};
+
+    fetchTeams(){
+        this.props.dispatch(fetch_teams(this.props.gameId));
+    }
+
+    createTeam(){
+        this.props.dispatch(create_team(this.state.teamName, this.props.gameId, this.props.userId));
+        this.setState({modalVisible:false});
+    }
+
+    pressCreateTeam(){
+        if(!this.state.hasCreatedTeam){
+            this.setState({modalVisible:true});
+        }
+    };
+
+    pressStart(){};
+
+    pressTeam(team){
+        Actions.players({team:team, userId:this.props.userId});
+
     }
 
     render(){
@@ -13,26 +41,33 @@ class TeamList extends Component{
             <View style={styles.container}>
                 <View style={{flex:8}}>
                 <Text style={styles.title}>Join a team</Text>
-                <View style={{marginLeft:40, marginRight:40}}>
-                  {this.state.teams.map(team => (
+                    {this.props.teamList!=undefined  ?
+                    <View style={{marginLeft:40, marginRight:40}}>
+                  {this.props.teamList.map(team => (
+                      <TouchableOpacity
+                          onPress={()=> this.pressTeam(team)}
+                      >
                       <View key={team.id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
                           <Image source={require('../images/icon_profile_team_brown.png')} style={{width:60, height:44, marginRight:20}}/>
                           <View style={{flexDirection:"column",paddingLeft:20}}>
-                              <Text style={styles.text}> {team.teamName} </Text>
-                              <Text style={styles.text}> {team.teamSize} members in the team </Text>
+                              <Text style={styles.text}> {team.name} </Text>
+                              <Text style={styles.text}> {team.users.length} members in the team </Text>
                           </View>
                           <Image source={require('../images/icon_arrow_right_brown.png')} style={{width:11, height:20, marginLeft:20}}/>
                       </View>
+                      </TouchableOpacity>
                     ))}
-                </View>
+                </View> : <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>}
                 </View>
                 <View style={{flex:1, flexDirection:"row"}}>
                   <TouchableOpacity style={styles.buttonContainer}
-                                    onPress={()=> this.pressScan()}>
+                                    disabled={this.state.hasCreatedTeam}
+                                    onPress={()=> {} }>
                       <Text style={styles.buttonText}>Create team</Text>
                   </TouchableOpacity>
                   <TouchableOpacity style={styles.buttonContainer}
-                                    onPress={()=> this.pressScan()}>
+                                    disabled={!this.state.hasJoined}
+                                    onPress={()=> this.pressStart()}>
                       <Text style={styles.buttonText}>Start</Text>
                   </TouchableOpacity>
               </View>
@@ -106,13 +141,20 @@ const styles = {
     },
     text: {
         color: '#5B343C',
-
+    },
+    modal: {
+        width:"50%",
+        height:"50%",
+        backgroundColor: '#5B343C',
+        borderRadius: 30,
     }
 };
 
 const mapStateToProps = (state, ownProps) => ({
   routes: state.routes,
-  games: state.games
+  games: state.games,
+    teams: state.teams,
+    teamList: state.teams.response
 })
 
 export default connect(mapStateToProps)(TeamList)

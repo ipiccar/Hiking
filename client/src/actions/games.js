@@ -1,8 +1,10 @@
 import {
   INIT_GAMES,
+    GAME_INFOS,
   LOADING,
   url
 } from "./constants"
+import {Actions} from "react-native-router-flux";
 
 const myRequest = new Request(url+'/game', {method: 'GET'});
 
@@ -34,6 +36,23 @@ export function getGames() {
   }
 }
 
+export function getGameInfos(gameId) {
+    return function (dispatch) {
+        // Display loader
+        dispatch(isFetching());
+        console.log("accessing : "+ url + 'games/' + gameId);
+        fetch(url + 'games/' + gameId)
+            .then((response) => response.json())
+            .then((responseJson) => {
+                console.log("Response received : " + responseJson);
+                dispatch(gameFetched(responseJson));
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+    }
+}
+
 
 //Dispatchers
 
@@ -57,4 +76,12 @@ function gamesFetched(response){
     response: response,
     loading: false
   }
+}
+
+function gameFetched(response){
+    return {
+        type: GAME_INFOS,
+        response: response,
+        loading: false
+    }
 }

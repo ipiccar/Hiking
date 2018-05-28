@@ -1,13 +1,9 @@
 import React from 'react'
 import {ImageBackground, TouchableOpacity, View, Dimensions} from "react-native";
 import { IgnMap, CustomMarker } from "../components"
-import MarkerSideMenu from "../components/MarkerSideMenu"
 import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 import { Marker } from 'react-native-maps';
-import Drawer from 'react-native-drawer';
-
-import LegendActivity from './LegendActivity';
 
 import marker_dark1 from '../images/marker_dark1.png';
 
@@ -23,23 +19,18 @@ const SPACE = 0.01;
 
 
 class MapActivity extends React.Component {
-
-  constructor(){
-    super();
-    this.state = {
-      //urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3812/{z}/{y}/{x}.png',
-      urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3857/{z}/{y}/{x}.png',
-      //offlineUrlTemplate: `${FileSystem.documentDirectory}tiles/{z}/{x}/{y}.png`,
-      mapRegion: undefined,
-      isOffline: false,
-      profile: {
-        type: 'GM',
-        isEditing: true,
-        isOffline: false
-      },
-      toggled: false
+    state = {
+        //urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3812/{z}/{y}/{x}.png',
+        urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3857/{z}/{y}/{x}.png',
+        //offlineUrlTemplate: `${FileSystem.documentDirectory}tiles/{z}/{x}/{y}.png`,
+        mapRegion: undefined,
+        isOffline: false,
+        profile: {
+          type: 'GM',
+          isEditing: false,
+          isOffline: false
+        }
     }
-  }
 
     handleMapRegionChange = mapRegion => {
         this.setState({
@@ -47,22 +38,9 @@ class MapActivity extends React.Component {
         })
     }
 
-    toggleDrawer() {
-      this.state.toggled ? this._drawer.close() : this._drawer.open();
-    }
-
-    closeDrawer(){
-      this.setState({toggled:false});
-    };
-
-
-    openDrawer(){
-      this.setState({toggled:true});
-    };
-
     render() {
         const { isOffline } = this.state.profile.isOffline;
-        const { routes } = this.context;
+        const {routes} = this.context;
         /*const urlTemplate = isOffline
         ? this.state.offlineUrlTemplate
         : this.state.urlTemplate*/
@@ -70,19 +48,7 @@ class MapActivity extends React.Component {
 
         if (this.state.profile.type == "GM" && this.state.profile.isEditing) {
           return (
-            <View style={styles.container}>
-                <Drawer
-                  type="displace"
-                  ref={(ref) => { this._drawer = ref; }}
-                  content={<LegendActivity/>}
-                  onClose={this.closeDrawer.bind(this)}
-                  onOpen={this.openDrawer.bind(this)}
-                  panOpenMask={0.10}
-                  panCloseMask={0.20}
-                  captureGestures
-                  side="right"
-                  negotiatePan = {true}
-                >
+              <View style={styles.container}>
                   <View style={styles.actionContainer}>
                       <TouchableOpacity
                           style={{
@@ -95,7 +61,6 @@ class MapActivity extends React.Component {
                               backgroundColor:'#5B343C',
                               borderRadius:100,
                           }}
-                          onPress={Actions.legend}
                       >
                           <ImageBackground source={require('../images/icon_pin_white.png')} style={{width:26, height:45}}/>
                       </TouchableOpacity>
@@ -110,35 +75,22 @@ class MapActivity extends React.Component {
                               backgroundColor:'#516C69',
                               borderRadius:100,
                           }}
+                          onPress={Actions.legend}
                       >
                           <ImageBackground source={require('../images/icon_validate_white.png')} style={{width:45, height:33}}/>
                       </TouchableOpacity>
                   </View>
 
+
                   <IgnMap
                       onRegionChange = {this.handleMapRegionChange}
                       urlTemplate = {urlTemplate}>
                   </IgnMap>
-                </Drawer>
               </View>
           )
         } else if (this.state.profile.type == "GM" && !this.state.profile.isEditing) {
           return (
-
               <View style={styles.container}>
-                <Drawer
-                  type="displace"
-                  ref={(ref) => { this._drawer = ref; }}
-                  content={<LegendActivity/>}
-                  onClose={this.closeDrawer.bind(this)}
-                  onOpen={this.openDrawer.bind(this)}
-                  panOpenMask={0.10}
-                  panCloseMask={0.20}
-                  captureGestures
-                  side="right"
-                  negotiatePan = {true}
-                >
-
                   <View style={styles.actionContainer}>
                       <TouchableOpacity
                           style={{
@@ -165,10 +117,13 @@ class MapActivity extends React.Component {
                               backgroundColor:'#516C69',
                               borderRadius:100,
                           }}
+                          onPress={Actions.legend}
                       >
                           <ImageBackground source={require('../images/icon_leaderboard_white.png')} style={{width:45, height:33}}/>
                       </TouchableOpacity>
                   </View>
+
+
                   <IgnMap
                       onRegionChange = {this.handleMapRegionChange}
                       urlTemplate = {urlTemplate}>
@@ -181,7 +136,6 @@ class MapActivity extends React.Component {
                           <CustomMarker type="type1"/>
                         </Marker>
                   </IgnMap>
-                  </Drawer>
               </View>
           )
         }
@@ -189,12 +143,6 @@ class MapActivity extends React.Component {
     }
 }
 
-const drawerStyles = {
-    drawer: {
-        height:"100%",width:200,shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 1
-    },
-    main: { paddingLeft: 0 }
-}
 
 const styles = {
     actionContainer: {

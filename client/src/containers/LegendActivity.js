@@ -224,41 +224,39 @@ class LegendActivity extends React.PureComponent {
       //return ();
     }
     return (
-      <View>
-        <SafeAreaView>
-          <SectionList
-            sections={sections}
-            renderSectionHeader={({ section }) => (
-              <View style={{backgroundColor: section.colour, zIndex: section.zIndex}}>
-                <TouchableOpacity style={styles.header} onPress={() => this.onPress(section)}>
-                  <View style={styles.iconWrapper}>
-                    <Image style={styles.iconHeader} source={legendIcons[section.icon]} />
-                  </View>
-                  <Text style={styles.textHeader}>{section.title}</Text>
-                </TouchableOpacity>
+      <SafeAreaView>
+        <SectionList
+          sections={sections}
+          renderSectionHeader={({ section }) => (
+            <View style={{backgroundColor: section.colour, zIndex: section.zIndex}}>
+            <TouchableOpacity style={styles.header} onPress={() => this.onPress(section)}>
+              <View style={styles.iconWrapper}>
+                <Image style={styles.iconHeader} source={legendIcons[section.icon]} />
               </View>
-            )}
-            renderItem={({ item, section }) => (
-              <View style={{backgroundColor: section.colour}}>
-              <Collapsible
-                key={item.key}
-                collapsed={section.title !== this.state.activeSection}
-                style={styles.collapsible}>
-
-                <View style={styles.item}>
-                  <View style={styles.itemTextBlock}>
-                    <Text style={styles.itemText}>{item.label}</Text>
-                  </View>
-                  <Image
-                    source={legendImages[item.image]}
-                  />
-                </View>
-              </Collapsible>
+              <Text style={styles.textHeader}>{section.title}</Text>
+            </TouchableOpacity>
             </View>
-            )}
-          />
-        </SafeAreaView>
-      </View>
+          )}
+          renderItem={({ item, section }) => (
+            <View style={{backgroundColor: section.colour}}>
+            <Collapsible
+              key={item.key}
+              collapsed={section.title !== this.state.activeSection}
+              style={styles.collapsible}>
+
+              <View style={styles.item}>
+                <View style={styles.itemTextBlock}>
+                  <Text style={styles.itemText}>{item.label}</Text>
+                </View>
+                <Image
+                  source={legendImages[item.image]}
+                />
+              </View>
+            </Collapsible>
+          </View>
+          )}
+        />
+      </SafeAreaView>
     )
   }
 }
@@ -270,10 +268,10 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    //shadowColor:'#000',
-    //shadowOpacity:0.8,
-    //shadowOffset:{width:0, height:2},
-    //shadowRadius: 8,
+    shadowColor:'#000',
+    shadowOpacity:0.8,
+    shadowOffset:{width:0, height:2},
+    shadowRadius: 8,
   },
   textHeader: {
     flex: 2,
@@ -294,7 +292,7 @@ const styles = {
     flexDirection: 'column',
     borderColor:'#ddd',
     borderWidth: 1,
-    //shadowColor:'#000',
+    shadowColor:'#000',
     padding: 15,
     marginTop: 10,
     backgroundColor: '#fff'

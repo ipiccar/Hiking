@@ -1,14 +1,26 @@
 import React, { Component } from 'react';
-import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { Header, Card, CardSection, Input, Button, MyGradient } from "../components";
+import { View, ImageBackground, Text, TouchableOpacity} from "react-native";
 import { connect } from 'react-redux';
+import {getGameInfos} from "../actions/games";
+import { Actions } from "react-native-router-flux";
 
 class GameDetails extends Component {
 
-    state={gameName:""};
+    constructor(props) {
+        super(props);
+        this.fetchGame=this.fetchGame.bind(this);
+        this.fetchGame();
+    }
 
-    pressScan() {
-        ;
+
+    fetchGame(){
+        this.props.dispatch(getGameInfos(this.props.gameId));
+    }
+
+    state={};
+
+    pressTeam() {
+        Actions.teamList({gameId:this.props.gameId, userId:this.props.userId});
     }
 
     render() {
@@ -18,15 +30,16 @@ class GameDetails extends Component {
                     <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
                 </ImageBackground>
                 <View style={styles.card}>
-                    <View style={{flex:2, alignItems:"center"}}>
-                        <Text style={styles.title}>{this.state.gameName}</Text>
-
-                        <Text style={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.vided.</Text>
-                    </View>
+                    {this.props.games.response ?
+                        <View style={{flex: 2, alignItems: "center"}}>
+                            <Text style={styles.title}>{this.props.games.response.name}</Text>
+                            <Text style={styles.text}>{this.props.games.response.description}</Text>
+                        </View> : <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                    }
 
                     <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.pressScan()}>
-                        <Text style={styles.buttonText}>Team</Text>
+                                      onPress={()=> this.pressTeam()}>
+                        <Text style={styles.buttonText}>Join a team</Text>
                     </TouchableOpacity>
 
                 </View>
@@ -91,7 +104,7 @@ const styles = {
         margin:10
     },
     buttonContainer: {
-        width:"40%",
+        width:"60%",
         height:"15%",
         backgroundColor: '#5B343C',
         borderRadius: 30,
@@ -110,22 +123,6 @@ const styles = {
     }
 };
 
-export function postForm(path, form) {
-    const base = options.baseUrl || "";
-    const str = [];
-    for (let p in form) {
-        str.push(encodeURIComponent(p) + "=" + encodeURIComponent(form[p]));
-    }
-    const body = str.join("&");
-    const req = {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body
-    };
-    return fetch(base + path, req);
-}
 
 const mapStateToProps = (state, ownProps) => ({
   routes: state.routes,
