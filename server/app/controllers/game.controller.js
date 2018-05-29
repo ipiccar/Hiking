@@ -6,7 +6,7 @@ if(!req.body.name) {
         return res.status(400).send({message: "Name can not be empty"});
     }
 	//var gameAdd = new Game(req.body);
-    var gameAdd = new Game({name: req.body.name, QRcode: req.body.QRcode, pois: req.body.pois, gms: req.body.gms});
+    var gameAdd = new Game({name: req.body.name, description:req.body.description, QRcode: req.body.QRcode, pois: req.body.pois, gms: req.body.gms});
     gameAdd.save(function(err, data) {
         if(err) {
             console.log(err);
@@ -63,6 +63,8 @@ exports.update = function(req, res) {
         }
 		if (req.body.name != null){
 		game.name = req.body.name}
+		if (req.body.description != null){
+		game.description = req.body.description}
 		if (req.body.QRcode != null){
 		game.QRcode = req.body.QRcode}
 		if (req.body.pois != null){

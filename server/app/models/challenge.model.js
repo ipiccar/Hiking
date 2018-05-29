@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 const connection = require('../../config/database.config.js');
 
 var challengeSchema = new Schema({
-	poiId: String,
-	name: String,
-	type: String,
+	poiId: {type: String, required :true},
+	name: {type: String, required :true, unique :true},
+	type: {type: String, required :true},
 	isDone: Boolean,
 	points: Number,
 	pointsWon: Number,

@@ -6,13 +6,12 @@ exports.create = function(req, res) {
 if(!req.body.name) {
         return res.status(400).send({message: "Name can not be empty"});
     }
-    var challengeAdd = new Challenge({poidId: req.body.poidId, name: req.body.name, type: req.body.type, isDone: req.body.isDone, points: req.body.points, pointsWon: req.body.pointsWon, penalityTime: req.body.penalityTime, vari:req.body.vari});
+    var challengeAdd = new Challenge({poiId: req.body.poiId, name: req.body.name, type: req.body.type, isDone: req.body.isDone, points: req.body.points, pointsWon: req.body.pointsWon, penalityTime: req.body.penalityTime, vari:req.body.vari});
     challengeAdd.save(function(err, data) {
         if(err) {
             console.log(err);
             res.status(500).send({message: "Some error occurred while creating the challenge."});
         } else {
-			console.log("Created new challenge");
             res.send(data);
         }
     });
@@ -150,7 +149,6 @@ exports.update = function(req, res) {
         });
     });
 };  
-
 exports.delete = function(req, res) {
     // Delete a note with the specified noteId in the request
     Challenge.findByIdAndRemove(req.params.challengeId, function(err, challenge) {

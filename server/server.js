@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-
+var multer = require("multer");
+var upload = multer({ dest: './uploads/'})
 // create express app
 var app = express();
 
@@ -31,7 +32,7 @@ mongoose.connection.once('open', function() {
 
 // define a simple route
 app.get('/', function(req, res){
-    res.json({"message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
+    res.json({"message": "Bienvenue sur notre application de Hiking"});
 });
 
 // Require routes
@@ -41,7 +42,19 @@ require('./app/routes/leaderboard.routes.js')(app);
 require('./app/routes/challenge.routes.js')(app);
 require('./app/routes/game.routes.js')(app);
 require('./app/routes/team.routes.js')(app);
+require('./app/routes/notification.routes.js')(app);
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
+app.post("/upload", multer({dest: "./uploads/"}).single("file"), function(req, res) {
+    console.log(req.body);
+    console.log(req.file);
+    res.send(req.file);
+});
 
 // listen for requests
 app.listen(3000, function(){

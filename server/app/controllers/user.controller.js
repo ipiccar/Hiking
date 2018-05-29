@@ -6,7 +6,7 @@ if(!req.body.name) {
         return res.status(400).send({message: "Name can not be empty"});
     }
     var userAdd = new User({name: req.body.name, type: req.body.type, MAC: req.body.MAC, pass: req.body.pass});
-    userAdd.save(function(err, data) {
+		userAdd.save(function(err, data) {
         if(err) {
             console.log(err);
             res.status(500).send({message: "Some error occurred while creating the User."});
@@ -14,7 +14,7 @@ if(!req.body.name) {
             res.send(data);
 			console.log("User created with success");
         }
-    });
+    });                        	
 };
 
 exports.findAll = function(req, res) {

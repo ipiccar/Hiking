@@ -4,6 +4,12 @@ module.exports = function(app) {
 
     // Create a new teams
     app.post('/teams', team.create);
+	
+	//Add user into team
+	app.post('/teams/join', team.addUserToTeam);
+	
+	//Remove user from team
+	app.post('/teams/leave', team.removeUserFromTeam);
 
     // Retrieve all team
     app.get('/teams', team.findAll);

@@ -1,3 +1,4 @@
+var multer = require("multer");
 module.exports = function(app) {
 
     var challenge = require('../controllers/challenge.controller.js');

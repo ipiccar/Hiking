@@ -15,7 +15,7 @@ module.exports = function(app) {
     app.get('/users/name/:userName', user.findOneByName);
 
     // Retrieve a single user with userId
-    app.get('/users/login/:userName/:hashedPassword', user.login);
+    app.post('/users/login', user.login);
 
     // Update a user with userId
     app.put('/users/:userId', user.update);
