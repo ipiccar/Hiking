@@ -1,4 +1,4 @@
-#Tue May 29 11:38:42 CEST 2018
+#Tue May 29 20:51:22 CEST 2018
 base.0=/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
