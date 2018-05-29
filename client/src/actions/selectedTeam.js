@@ -44,12 +44,12 @@ console.log("JOIN TEAM");
     }
 }
 
-export function leaveTeam (teamId, user){
+export function leaveTeam (teamId, userId){
     return function(dispatch) {
 
         dispatch(isFetching());
         console.log(teamId);
-        console.log(user);
+        console.log(userId);
         fetch(url + 'teams/leave/', {
             method: 'POST',
             headers: {
@@ -57,56 +57,14 @@ export function leaveTeam (teamId, user){
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                userId: user.userId,
+                userId: userId,
                 teamId: teamId
             }),
         })
             .then((response) => response.json())
             .then((responseJson) => {
-              if (responseJson) {
-                console.log("got a response from server");
-
-                dispatch(leftTeam(teamId, user));
-              } else {
-                console.log(user.name + " Didn't left the team");
-              }
-            })
-            .catch((error) => {
-                console.error(error);
-            });
-    }
-}
-
-export function create_team (teamName, gameId, userId){
-    console.log(teamName);
-    console.log(gameId);
-    console.log(userId);
-    return function(dispatch) {
-
-        dispatch(isFetching());
-        fetch(url + 'teams/', {
-            method: 'POST',
-            headers: {
-                Accept: 'application/json',
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                name: teamName,
-                gameId: gameId,
-                userId: userId
-            }),
-        })
-            .then((response) => response.json())
-            .then((responseJson) => {
-              if (responseJson._id) {
-                console.log("got a response from server");
                 console.log(responseJson);
-                dispatch(createdTeam(responseJson));
-              } else {
-                console.log(responseJson);
-                console.log(teamName + " Didn't left the team");
-              }
-
+                dispatch(leaveTeam(responseJson));
             })
             .catch((error) => {
                 console.error(error);
@@ -148,19 +106,10 @@ function joinedTeam(teamId, user){
     }
 }
 
-function leftTeam(teamId, user){
+function leaveTeam(res){
     return {
         type: LEAVE_TEAM,
-        teamId: teamId,
-        user: user,
-        loading: false
-    }
-}
-
-function createTeam(response){
-    return {
-        type: NEW_TEAM,
-        response: response,
+        res: res,
         loading: false
     }
 }

@@ -48,8 +48,7 @@ function chooseGame(response) {
     pois: response.pois,
     gms: response.gms,
     loading: false,
-    hasGame: true,
-    isPlaying: true
+    hasGame: true
   }
 }
 
