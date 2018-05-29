@@ -6,19 +6,18 @@ import { Button, Button2 } from "../components";
 
 import {create_user, fetch_login} from '../actions/action_users';
 
+
 class Main extends Component {
 
     constructor(props){
         super(props);
-
+        this.state ={
+          hikerName:"",
+          emptyField:true,
+          tryToSend: false,
+        };
         this.checkUser=this.checkUser.bind(this);
     }
-
-    this.state ={
-      hikerName:"",
-      emptyField:true,
-      tryToSend: false,
-    };
 
     fieldChange(input){
       this.setState({tryToSend:false})
