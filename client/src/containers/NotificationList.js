@@ -1,24 +1,18 @@
 import React, { Component } from 'react';
 import {Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
 import { connect } from 'react-redux';
-import { fetch_notifications } from "../actions/notifications";
 import { displayTeam } from "../actions/selectedTeam"
-import { Actions } from "react-native-router-flux";
 import { Button, Button2 } from "../components";
 
 class NotificationList extends Component{
     constructor(props) {
         super(props);
-        this.fetchNotifications=this.fetchNotifications.bind(this);
         //this.fetchNotifications();
     }
 
     state = {
     };
 
-    fetchNotifications(){
-        this.props.dispatch(fetch_notifications(this.props.selectedGame.gameId, this.props.selectedTeam.teamId));
-    }
 
     render(){
         return(

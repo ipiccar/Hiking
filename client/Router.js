@@ -21,7 +21,7 @@ const RouterComponent = ({ store }) => {
         <RouterWithRedux>
           <Router>
               <Stack key="root">
-                  <Scene key="main" component={Main} title="Welcome" hideNavBar={true} />
+                  <Scene key="main" component={Main} title="Welcome" hideNavBar={true} initial/>
                   <Scene key="login" component={Login} title="Login" hideNavBar={true}/>
                   <Scene key="adminMain" component={AdminMain} title="Main" hideNavBar={true} />
                   <Scene key="scan" component={JoinGame} title="Scan" hideNavBar={true} />
@@ -29,7 +29,7 @@ const RouterComponent = ({ store }) => {
                   <Scene key="teamList" component={TeamList} title="Team List" hideNavBar={true}/>
                   <Scene key="players" component={PlayerList} title="Player List" hideNavBar={true} />
                   <Scene key="waitingroom" component={WaitingRoom} title="Waiting Room" hideNavBar={true} />
-                  <Scene key="map" component={MapActivity} title="Map" hideNavBar={true} initial/>
+                  <Scene key="map" component={MapActivity} title="Map" hideNavBar={true}/>
                   <Scene key="legend" component={LegendActivity} title="Legend" hideNavBar={true}/>
                   <Scene key="notifications" component={NotificationList} title="Notifications" hideNavBar={true}/>
               </Stack>

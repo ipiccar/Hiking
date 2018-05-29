@@ -2,7 +2,8 @@ import {
     INIT_TEAMS,
     LEAVE_TEAM,
     JOIN_TEAM,
-    DISPLAY_TEAM
+    DISPLAY_TEAM,
+    PLAYER_REFRESH
 } from "../actions/constants"
 
 nbTeams = 0;
@@ -39,6 +40,11 @@ const selectedTeam = (state = [], action) => {
     case LEAVE_TEAM:
         return Object.assign({}, state, {
             joined: false
+        })
+    case PLAYER_REFRESH:
+        return Object.assign({}, state, {
+          ...state,
+            response: action.teamUpdate
         })
 
 
