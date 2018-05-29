@@ -62,7 +62,7 @@ class MapActivity extends React.Component {
             QRcode: "",
             __v: 0
         }
-    } 
+    }
 
     componentWillMount() {
         console.log("userlocation");
@@ -217,7 +217,7 @@ class MapActivity extends React.Component {
                           <CustomMarker type="type1"/>
                         </Marker>
                       })}
-                      
+
                   </IgnMap>
                 </Drawer>
               </View>
@@ -278,14 +278,14 @@ class MapActivity extends React.Component {
                             key={poi._id}
                                 coordinate={{latitude:poi.coordX, longitude:poi.coordY}}>
                                 <CustomMarker type="type1"/>
-                                {this.checkCloseEnough(poi) ?                                
+                                {this.checkCloseEnough(poi) ?
                                     <MapView.Callout tooltip onPress={()=>this.startChallenge(poi)}>
                                     <View style={styles.bubble}>
                                         <Text style={{color:'#5B343C', fontSize:16}}>{poi.name}</Text>
                                         <Text style={{color:'#5B343C', fontSize:12}}>{poi.notificationMessage}</Text>
                                         <TouchableOpacity><Text>Start challenge !</Text></TouchableOpacity>
                                         </View>
-                                </MapView.Callout> : 
+                                </MapView.Callout> :
                             <MapView.Callout tooltip>
                             <View style={styles.bubble}>
                                 <Text style={{color:'#5B343C', fontSize:16}}>{poi.name}</Text>
@@ -305,7 +305,7 @@ class MapActivity extends React.Component {
     {this.state.selectedGame.pois.map((poi)=>{
         console.log(poi.coordX);
         console.log(poi.coordY);
-      <MapView.Marker                      
+      <MapView.Marker
         coordinate={{
             latitude: poi.coordX + SPACE,
             longitude: poi.coordY - SPACE,
@@ -318,7 +318,7 @@ class MapActivity extends React.Component {
               <TouchableOpacity enable={this.checkCloseEnough(poi)}><Text>Start challenge !</Text></TouchableOpacity>
           </View>
         </Callout>
-        
+
       </MapView.Marker>
     })} */
 
@@ -338,7 +338,15 @@ class MapActivity extends React.Component {
             console.log("distance : " + distance);
             return distance <= poi.notificationRange;
         }
-        return false; 
+        return false;
+    }
+
+    checkChallenge(poiId){
+      this.props.selectedTeam.challenges.map((challenge) => {
+        if (challenge._id === poiId){
+          this.props.dispatch(selectChallenge(challenge))
+        }
+      })
     }
 }
 
@@ -400,11 +408,13 @@ const styles = {
       }
 }
 
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, props) => ({
   routes: state.routes,
   profile: state.profile,
   selectedGame: state.selectedGame,
-  teams: state.teams
+  teams: state.teams,
+  selectedTeam : state.selectedTeam,
+  selectedChallenge: state.selectedChallenge
 })
 
 export default connect(mapStateToProps)(MapActivity)

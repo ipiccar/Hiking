@@ -27,3 +27,5 @@ export const LOGGED_IN = 'LOGGED_IN';
 export const ALREADY_EXISTS = 'ALREADY_EXISTS';
 export const ADMIN_LOGIN = 'ADMIN_LOGIN';
 export const NEW_USER = 'NEW_USER';
+
+export const SELECTED_CHALLENGE = 'SELECTED_CHALLENGE';

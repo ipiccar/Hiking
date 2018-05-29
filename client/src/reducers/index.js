@@ -5,6 +5,7 @@ import profile from "./profile"
 import teams from "./teams"
 import selectedGame from "./selectedGame"
 import selectedTeam from "./selectedTeam"
+import selectedChallenge from "./selectedChallenge"
 import {
   DATA_AVAILABLE,
   LOADING,
@@ -14,7 +15,8 @@ import {
   ALREADY_EXISTS,
   CHOOSE_GAME,
   NO_SUCH_GAME,
-  JOIN_TEAM
+  JOIN_TEAM,
+  SELECTED_CHALLENGE
 } from "../actions/constants" //Import the actions types constant we defined in our actions
 
 
@@ -83,7 +85,8 @@ const rootReducer = combineReducers({
   profile,
   teams,
   selectedGame,
-  selectedTeam
+  selectedTeam,
+  selectedChallenge
   // ,[ANOTHER REDUCER], [ANOTHER REDUCER] ....
 })
 
