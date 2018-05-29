@@ -3,24 +3,20 @@ import { View, ImageBackground, Text, TouchableOpacity} from "react-native";
 import { connect } from 'react-redux';
 import {getGameInfos} from "../actions/games";
 import { Actions } from "react-native-router-flux";
+import { Button } from "../components";
 
 class GameDetails extends Component {
 
     constructor(props) {
         super(props);
-        this.fetchGame=this.fetchGame.bind(this);
-        this.fetchGame();
-    }
-
-
-    fetchGame(){
-        this.props.dispatch(getGameInfos(this.props.gameId));
+        this.teamList=this.teamList.bind(this);
     }
 
     state={};
 
-    pressTeam() {
-        Actions.teamList({gameId:this.props.gameId, userId:this.props.userId});
+    teamList() {
+
+        Actions.teamList();
     }
 
     render() {
@@ -30,18 +26,15 @@ class GameDetails extends Component {
                     <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
                 </ImageBackground>
                 <View style={styles.card}>
-                    {this.props.games.response ?
+                    {this.props.selectedGame.hasGame ?
                         <View style={{flex: 2, alignItems: "center"}}>
-                            <Text style={styles.title}>{this.props.games.response.name}</Text>
-                            <Text style={styles.text}>{this.props.games.response.description}</Text>
+                            <Text style={styles.title}>{this.props.selectedGame.name}</Text>
+                            <Text style={styles.text}>{this.props.selectedGame.description}</Text>
                         </View> : <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
                     }
-
-                    <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.pressTeam()}>
-                        <Text style={styles.buttonText}>Join a team</Text>
-                    </TouchableOpacity>
-
+                    <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
+                      <Button onPress={()=> this.teamList()} text="Join a team"/>
+                    </View>
                 </View>
             </View>
         );
@@ -126,7 +119,9 @@ const styles = {
 
 const mapStateToProps = (state, ownProps) => ({
   routes: state.routes,
-  games: state.games
+  profile: state.profile,
+  selectedGame: state.selectedGame,
+  teams: state.teams
 })
 
 export default connect(mapStateToProps)(GameDetails)

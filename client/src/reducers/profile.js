@@ -5,22 +5,31 @@ import {
   CHOOSE_GAME,
   EDIT_GAME,
   NO_NETWORK,
-  HAS_NETWORK
+  HAS_NETWORK,
+  ALREADY_EXISTS
 } from "../actions/constants"
 
 nbTeams = 0;
 
 const games = (state = [], action) => {
   switch (action.type) {
+    case ALREADY_EXISTS:
+    return Object.assign({}, state, {
+      ...state,
+      name: action.name,
+      alreadyExists: action.alreadyExists,
+      userType: action.userType
+    })
     case LOGGED_IN:
     return Object.assign({}, state, {
       ...state,
-      userId: action._id,
+      userId: action.userId,
       name: action.name,
-      type: action.user_type,
-        res:action.res,
+      userType: action.userType,
+      mac:action.mac,
       isEditing: false,
-      isPlaying: false
+      isPlaying: false,
+      alreadyExists: false
     })
       case ADMIN_LOGIN:
           return Object.assign({}, state, {

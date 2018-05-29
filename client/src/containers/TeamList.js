@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import {Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
 import { connect } from 'react-redux';
 import {create_team, fetch_teams} from "../actions/teams";
+import { displayTeam } from "../actions/selectedTeam"
 import { Actions } from "react-native-router-flux";
+import { Button, Button2 } from "../components";
 
 class TeamList extends Component{
     constructor(props) {
@@ -12,14 +14,19 @@ class TeamList extends Component{
         this.fetchTeams();
     }
 
-    state = {hasJoined:false, hasCreatedTeam:false, teamName:"", modalVisible:false};
+    state = {
+      hasJoined:false,
+      hasCreatedTeam:false,
+      teamName:"",
+      modalVisible:false
+    };
 
     fetchTeams(){
-        this.props.dispatch(fetch_teams(this.props.gameId));
+        this.props.dispatch(fetch_teams(this.props.selectedGame.gameId));
     }
 
     createTeam(){
-        this.props.dispatch(create_team(this.state.teamName, this.props.gameId, this.props.userId));
+        this.props.dispatch(create_team(this.state.teamName, this.props.selectedGame.gameId, this.props.profile.userId));
         this.setState({modalVisible:false});
     }
 
@@ -32,7 +39,9 @@ class TeamList extends Component{
     pressStart(){};
 
     pressTeam(team){
-        Actions.players({team:team, userId:this.props.userId});
+      console.log(team);
+        this.props.dispatch(displayTeam(team))
+        Actions.players();
 
     }
 
@@ -40,37 +49,31 @@ class TeamList extends Component{
         return(
             <View style={styles.container}>
                 <View style={{flex:8}}>
-                <Text style={styles.title}>Join a team</Text>
-                    {this.props.teamList!=undefined  ?
-                    <View style={{marginLeft:40, marginRight:40}}>
-                  {this.props.teamList.map(team => (
-                      <TouchableOpacity
-                          onPress={()=> this.pressTeam(team)}
-                      >
-                      <View key={team.id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
-                          <Image source={require('../images/icon_profile_team_brown.png')} style={{width:60, height:44, marginRight:20}}/>
-                          <View style={{flexDirection:"column",paddingLeft:20}}>
-                              <Text style={styles.text}> {team.name} </Text>
-                              <Text style={styles.text}> {team.users.length} members in the team </Text>
-                          </View>
-                          <Image source={require('../images/icon_arrow_right_brown.png')} style={{width:11, height:20, marginLeft:20}}/>
-                      </View>
-                      </TouchableOpacity>
-                    ))}
-                </View> : <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>}
+                    <Text style={styles.title}>Join a team</Text>
+                    {this.props.teams.byId !== undefined ? (
+                        <View style={{marginLeft:40, marginRight:40}}>
+                            {this.props.teams.byId.map(team => (
+                              <TouchableOpacity onPress={()=> this.pressTeam(team)}>
+                                  <View key={team.teamId} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
+                                      <Image source={require('../images/icon_profile_team_brown.png')} style={{width:60, height:44, marginRight:20}}/>
+                                      <View style={{flexDirection:"column",paddingLeft:20}}>
+                                          <Text style={styles.text}> {team.name} </Text>
+                                          <Text style={styles.text}> {team.nbUsers} members in the team </Text>
+                                      </View>
+                                      <Image source={require('../images/icon_arrow_right_brown.png')} style={{width:11, height:20, marginLeft:20}}/>
+                                  </View>
+                              </TouchableOpacity>
+                            )
+                          )}
+                        </View>
+                    ) : (
+                        <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                    )}
                 </View>
-                <View style={{flex:1, flexDirection:"row"}}>
-                  <TouchableOpacity style={styles.buttonContainer}
-                                    disabled={this.state.hasCreatedTeam}
-                                    onPress={()=> {} }>
-                      <Text style={styles.buttonText}>Create team</Text>
-                  </TouchableOpacity>
-                  <TouchableOpacity style={styles.buttonContainer}
-                                    disabled={!this.state.hasJoined}
-                                    onPress={()=> this.pressStart()}>
-                      <Text style={styles.buttonText}>Start</Text>
-                  </TouchableOpacity>
-              </View>
+                <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
+                  <Button onPress={()=> {}} text="Create team" disabled={this.state.hasCreatedTeam}/>
+                  <Button2 onPress={()=> this.pressStart()} text="Start"/>
+                </View>
           </View>
         )
 }}
@@ -150,11 +153,13 @@ const styles = {
     }
 };
 
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, props) => ({
   routes: state.routes,
-  games: state.games,
-    teams: state.teams,
-    teamList: state.teams.response
+  profile: state.profile,
+  selectedGame: state.selectedGame,
+  teams: state.teams,
+  selectedTeam: state.selectedTeam,
+  dataReducer: state.dataReducer,
 })
 
 export default connect(mapStateToProps)(TeamList)

@@ -4,12 +4,17 @@ import games from "./games"
 import profile from "./profile"
 import teams from "./teams"
 import selectedGame from "./selectedGame"
+import selectedTeam from "./selectedTeam"
 import {
   DATA_AVAILABLE,
   LOADING,
-    LOGGED_IN,
+  LOGGED_IN,
   INIT_GAMES,
-  INIT_TEAMS
+  INIT_TEAMS,
+  ALREADY_EXISTS,
+  CHOOSE_GAME,
+  NO_SUCH_GAME,
+  JOIN_TEAM
 } from "../actions/constants" //Import the actions types constant we defined in our actions
 
 
@@ -19,7 +24,6 @@ const dataReducer = (state = dataState, action) => {
     switch (action.type) {
         case DATA_AVAILABLE:
           state = Object.assign({}, state, {
-            data: action.data,
             loading:false
           });
           return state;
@@ -46,7 +50,26 @@ const dataReducer = (state = dataState, action) => {
                 ...state,
                 loading: action.loading
             });
-
+        case ALREADY_EXISTS:
+            state = Object.assign({}, state, {
+                ...state,
+                loading: action.loading
+            });
+        case CHOOSE_GAME:
+            state = Object.assign({}, state, {
+                ...state,
+                loading: action.loading
+            });
+        case NO_SUCH_GAME:
+            state = Object.assign({}, state, {
+                ...state,
+                loading: action.loading
+            });
+        case JOIN_TEAM:
+            state = Object.assign({}, state, {
+                ...state,
+                loading: action.loading
+            });
         default:
           return state;
     }
@@ -57,9 +80,10 @@ const rootReducer = combineReducers({
   dataReducer,
   routes,
   games,
-    profile,
+  profile,
   teams,
-  selectedGame
+  selectedGame,
+  selectedTeam
   // ,[ANOTHER REDUCER], [ANOTHER REDUCER] ....
 })
 

@@ -6,7 +6,7 @@ import {
 } from "./constants"
 import {Actions} from "react-native-router-flux";
 
-const myRequest = new Request(url+'/game', {method: 'GET'});
+const myRequest = new Request(url+'game', {method: 'GET'});
 
 //Exports
 

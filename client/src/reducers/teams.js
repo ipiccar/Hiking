@@ -4,45 +4,75 @@ import {
     FETCH_TEAMS,
     NEW_TEAM,
     LEAVE_TEAM,
-    JOIN_TEAM
+    JOIN_TEAM,
+    DISPLAY_TEAM
 } from "../actions/constants"
 
 nbTeams = 0;
 
 const games = (state = [], action) => {
   switch (action.type) {
-    case CHOOSE_GAME:
-    return Object.assign({}, state, {
-      ...state,
-      gameId: action.gameId
-    })
     case INIT_TEAMS:
-    return Object.assign({}, state, {
-      ...state,
-        byId: listTeams(action, state.gameId),
-        nbTeams: action.length
-    })
-      case FETCH_TEAMS:
-          return Object.assign({}, state, {
-              ...state,
-              state.byId.map(team=>)
-              response: action.response
-          })
-      case NEW_TEAM:
-          return Object.assign({}, state, {
-              ...state,
-              response: action.response
-          })
-      case JOIN_TEAM:
-          return Object.assign({}, state, {
-              ...state,
-              res: action.res
-          })
-      case LEAVE_TEAM:
-          return Object.assign({}, state, {
-              ...state,
-              res: action.res
-          })
+        return Object.assign({}, state, {
+          ...state,
+            byId: listTeams(action),
+            nbTeams: action.byId.length
+        })
+    case NEW_TEAM:
+        return Object.assign({}, state, {
+            ...state,
+            byId: [...state.byId, ...action.team]
+        })
+    case JOIN_TEAM:
+        return Object.assign({}, state, {
+            ...state,
+            byId: state.byId.map((team) => {
+              if (team.id === action.teamId) {
+                return Object.assign({}, team, {
+                  users: team.users.push({
+                    _id: action.user.userId,
+                    name: action.user.name,
+                    MAC: action.user.mac
+                  }),
+                  nbUsers: state.users.length,
+                })
+              } else {
+                return team
+              }
+            })
+        })
+    case LEAVE_TEAM:
+        return Object.assign({}, state, {
+            ...state,
+            byId: state.byId.map((team) => {
+              if (team.id === action.teamId) {
+                return Object.assign({}, team, {
+                  users: team.users.map((user) => {
+                    if (user._id !== action.userId){
+                      return user;
+                    }
+                  })
+                })
+              } else {
+                return team;
+              }
+            })
+        })
+    case DISPLAY_TEAM:
+        return Object.assign({}, state, {
+            ...state,
+            byId: state.byId.map((team) => {
+              if (team.id === action.team.teamId) {
+                return Object.assign({}, team, {
+                  displayed: action.selected
+                })
+              } else {
+                return Object.assign({}, team, {
+                  displayed: !action.selected
+                })
+              }
+            })
+        })
 
     //other actions
     default:
@@ -52,15 +82,15 @@ const games = (state = [], action) => {
 
 function listTeams(action){
   teamList = []
-  action.forEach(function(team, index) {
-    nbUsers = 0
+  action.byId.forEach(function(team, index) {
     teamList[index] = {
-      id: team._id,
+      teamId: team._id,
       name: team.name,
       users: team.users,
-      nbUsers: team.users.lenght,
+      nbUsers: team.users.length,
       challenges: team.challenges,
-      nbChallenges: team.challenges.lenght
+      nbChallenges: team.challenges.length,
+      selected: false,
     }
   })
   return teamList;

@@ -3,22 +3,42 @@ import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "
 import { connect } from 'react-redux';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import { Actions } from "react-native-router-flux";
+import { Button } from '../components';
+import { initGame } from '../actions/selectedGame';
 
 
 class JoinGame extends Component {
 
-    state={qrCode:"", scanOn:false};
+    constructor(props){
+        super(props);
+        this.fetchGame=this.fetchGame.bind(this);
+        this.onSuccess=this.onSuccess.bind(this);
+    }
+
+    state={
+      qrCode: "5b0c9d1ba608981e518ba568",
+      scanOn: false
+    };
+
     pressScan() {
-        this.state.scanOn ?
-            this.setState({scanOn:false}) : this.setState({scanOn:true});
+        this.fetchGame(this.state.qrCode, this.props.profile.userId);
+        this.state.scanOn ? this.setState({scanOn:false}) : this.setState({scanOn:true});
     }
 
     onSuccess(e) {
         this.setState({scanOn:false});
-        Actions.gdetail({gameId:e.data, userId:this.props.userId});
+        this.fetchGame(e.data, this.props.profile.userId);
+    }
+
+    fetchGame(gameId, userId){
+        this.props.dispatch(initGame(gameId));
     }
 
     render() {
+      console.log(this.props);
+      const scanOn = this.state.scanOn;
+      const hasGame = this.props.selectedGame.hasGame == undefined ? false : this.props.selectedGame.hasGame;
+
         return (
             <View style={{flex:1}}>
                 <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
@@ -28,20 +48,21 @@ class JoinGame extends Component {
                     <View style={{flex:2, alignItems:"center"}}>
                         <Text style={styles.title}>Join a game</Text>
                         <Text style={styles.text}>To join a game, please scan the QR Code provided.</Text>
-                        {this.state.scanOn==true ? (
+                        {scanOn && !hasGame ?  (
                             <View style={{padding:25}}>
-                            <QRCodeScanner
-                            onRead={this.onSuccess.bind(this)}
-                            topContent={""}
-                            bottomContent={""}
-                            /></View>) :
-                            (<Image source={require('../images/qr.png')} style={{width:150, height:150, marginTop:15}}/>)}
+                              <QRCodeScanner
+                              onRead={this.onSuccess}
+                              topContent={""}
+                              bottomContent={""}
+                              />
+                            </View>
+                          ) : (
+                            <Image source={require('../images/qr.png')} style={{width:150, height:150, marginTop:15}}/>
+                          )}
                     </View>
-
-                    <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.pressScan()}>
-                        <Text style={styles.buttonText}>{this.state.scanOn==true ? "Cancel" : "Scan"}</Text>
-                    </TouchableOpacity>
+                    <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
+                      <Button onPress={()=> this.pressScan()} text={scanOn && !hasGame ? "Cancel" : "Scan"}></Button>
+                    </View>
                 </View>
             </View>
         );
@@ -152,9 +173,10 @@ export function postForm(path, form) {
     };
     return fetch(base + path, req);
 }
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, props) => ({
   routes: state.routes,
-  games: state.games
+  profile: state.profile,
+  selectedGame: state.selectedGame
 })
 
 export default connect(mapStateToProps)(JoinGame)

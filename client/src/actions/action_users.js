@@ -3,11 +3,10 @@ import {
     ADMIN_LOGIN,
     LOADING,
     NEW_USER,
+    ALREADY_EXISTS,
     url
 } from "./constants"
 import {Actions} from "react-native-router-flux";
-
-const myRequest = new Request(url+'/game', {method: 'GET'});
 
 export function fetch_login (hikerName){
     return function(dispatch) {
@@ -17,20 +16,22 @@ export function fetch_login (hikerName){
         fetch(url + 'users/name/' + hikerName)
             .then((response) => response.json())
             .then((responseJson) => {
-                console.log("Response received : " + responseJson.toString());
-                dispatch(userFetched(responseJson));
-                if(responseJson.type!=undefined){
-                    if(responseJson.type.toUpperCase()=="ADMIN"){
-                        console.log("Admin");
+                console.log("Response received : ");
+                console.log(responseJson);
 
-                        Actions.login({hikerName: hikerName});
+                if(responseJson.type!=undefined){
+                  //User exists
+                    if(responseJson.type.toUpperCase()=="ADMIN"){
+                      //User is ADMIN
+                        console.log("Admin");
+                        dispatch(userFetched(responseJson));
+                        Actions.login();
+                    }else if (responseJson.type.toUpperCase()=="PLAYER"){
+                      //User is PLAYER and exists
+                        dispatch(userExists(responseJson));
                     }
-                    else{
-                        console.log("This hiker name already exists");
-                    }
-                }
-                else{
-                    dispatch(isFetching());
+                } else {
+                  //User don't exists
                     console.log("after isFetching");
                     fetch(url + 'users/', {
                         method: 'POST',
@@ -40,14 +41,15 @@ export function fetch_login (hikerName){
                         },
                         body: JSON.stringify({
                             name: hikerName,
-                            MAC: "MASI123456700"
+                            MAC: "MASI123456700",
+                            type: "player"
                         }),
                     })
                         .then((response) => response.json())
                         .then((responseJson) => {
                             console.log(responseJson);
-                            dispatch(createUser(responseJson));
                             if(responseJson._id){
+                                dispatch(userFetched(responseJson));
                                 Actions.scan({hikerName: hikerName, userId:responseJson._id});
                             }
                         })
@@ -92,6 +94,8 @@ export function fetch_admin_login(name, password){
     }
 }
 
+//Dispatchers
+
 function isFetching(){
     return {
         type: LOADING,
@@ -99,15 +103,24 @@ function isFetching(){
     }
 }
 
-function userFetched(response, res){
+function userExists(response){
+  return {
+    type: ALREADY_EXISTS,
+    name: response.name,
+    userType: response.type,
+    alreadyExists: true,
+    loading: false
+  }
+}
+
+function userFetched(response){
     return {
         type: LOGGED_IN,
         userId: response._id,
         name: response.name,
-        user_type: response.type,
-        pass: response.pass,
-        loading: false,
-        res:res
+        userType: response.type,
+        mac: response.MAC,
+        loading: false
     }
 }
 function resultLogin(response) {

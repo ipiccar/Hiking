@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Icarus/Desktop/Hiking 2/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be37bdd82180fda8115a908faf86a44c/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

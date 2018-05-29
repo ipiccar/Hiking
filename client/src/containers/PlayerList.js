@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableOpacity, Image } from 'react-native';
+import { Text, View, TouchableOpacity, Image, ScrollView } from 'react-native';
 import { connect } from 'react-redux';
-import {join_team, leave_team} from "../actions/teams";
+import {joinTeam, leaveTeam} from "../actions/selectedTeam";
+import { Button } from "../components";
 
 class PlayerList extends Component{
     constructor(props) {
@@ -12,31 +13,43 @@ class PlayerList extends Component{
     state={};
 
     joinTeam(){
-        this.props.teams.res ? this.props.dispatch(leave_team(this.props.team._id, this.props.userId))
-         : this.props.dispatch(join_team(this.props.team._id, this.props.userId));
+        this.props.selectedTeam.joined ?
+        (
+          this.props.dispatch(leaveTeam(this.props.selectedTeam.teamId, this.props.profile.userId))
+        ) : (
+          this.props.dispatch(joinTeam(this.props.selectedTeam.teamId, this.props.profile))
+        )
     }
 
     render(){
-        return(
-            <View style={styles.container}>
-                <View style={{flex:8}}>
-                    <Text style={styles.title}>{this.props.team.name}</Text>
-                    {this.props.team.users.map(player => (
-                        <View key={player._id} style={{alignItems:"flex-start",flexDirection:"row"}}>
-                            <Image source={require('../images/avatar.png')} style={{width:60, height:60}}/>
-                            <Text style={styles.text}> {player.name} </Text>
+      return(
+          <View style={styles.container}>
+              <View style={{flex:1}}>
+                  <Text style={styles.title}>{this.props.selectedTeam.name}</Text>
+                  {this.props.teams.byId !== undefined ? (
+                      <View>
+                        <ScrollView style={{marginLeft:40, marginRight:40}}>
+                            {this.props.selectedTeam.users.map(player => (
+                                <View key={player._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
+                                    <Image source={require('../images/icon_profile_single_brown.png')} style={{width:56, height:60, marginRight:20}}/>
+                                    <View style={{flexDirection:"column",paddingLeft:20}}>
+                                        <Text style={styles.text}> {player.name} </Text>
+                                    </View>
+                                </View>
+                            ))}
+                        </ScrollView>
+                        <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
+                          <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
                         </View>
-                    ))}
-                </View>
-                <View style={{flex:1, flexDirection:"row"}}>
-                    <TouchableOpacity style={styles.buttonContainer}
-                                      onPress={()=> this.joinTeam()}>
-                        <Text style={styles.buttonText}>{this.props.teams.res ? "Leave team" : "Join team"}</Text>
-                    </TouchableOpacity>
-                </View>
-            </View>
+                      </View>
+                  ) : (
+                      <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                  )}
+              </View>
+        </View>
         )
-    }}
+    }
+  }
 
 
 
@@ -104,15 +117,23 @@ const styles = {
     },
     text: {
         color: '#5B343C',
-
+    },
+    modal: {
+        width:"50%",
+        height:"50%",
+        backgroundColor: '#5B343C',
+        borderRadius: 30,
     }
 };
 
-const mapStateToProps = (state, ownProps) => ({
-  routes: state.routes,
-  games: state.games,
+const mapStateToProps = (state, props) => ({
+    dataReducer: state.dataReducer,
+    routes: state.routes,
+    games: state.games,
     teams: state.teams,
-    profile: state.profile
+    profile: state.profile,
+    selectedGame: state.selectedGame,
+    selectedTeam: state.selectedTeam
 })
 
 export default connect(mapStateToProps)(PlayerList)

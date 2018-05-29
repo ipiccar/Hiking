@@ -2,7 +2,7 @@ import {
   DATA_AVAILABLE
 } from "./constants"
 
-const myRequest = new Request('http://10.113.101.58:8000/users', {method: 'GET'});
+const myRequest = new Request(url+'/users', {method: 'GET'});
 
 export function getData(){
     return (dispatch) => {

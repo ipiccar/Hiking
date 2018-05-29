@@ -7,10 +7,13 @@ import { Actions } from "react-native-router-flux";
 
 class Login extends Component {
 
-    state={name:"", password:"", isLogged:false};
-
     constructor(props){
         super(props);
+        state={
+          name:"",
+          password:"",
+          isLogged:false
+        };
         this.checkPassword=this.checkPassword.bind(this);
     }
 

@@ -1,21 +1,34 @@
 import {
-  CHOOSE_GAME
+  LOADING,
+  CHOOSE_GAME,
+  NO_SUCH_GAME
 } from "../actions/constants"
 
 
-const games = (state = [], action) => {
+const selectedGame = (state = [], action) => {
   switch (action.type) {
+    case LOADING:
+    return Object.assign({}, state, {
+      ...state,
+        hasGame: action.hasGame
+    })
     case CHOOSE_GAME:
     return Object.assign({}, state, {
       ...state,
-        id: action._id,
+        gameId: action.gameId,
         name: action.name,
-        QRcode: action.QRcode,
+        description: action.description,
         pointsOfInterest: action.pois,
-        nbPointsOfInterest: action.pois.lenght,
+        nbPointsOfInterest: action.pois.length,
         gameMasters: action.gms,
-        nbGameMasters: action.gms.lenght,
+        nbGameMasters: action.gms.length,
+        hasGame: action.hasGame,
         isRunning: false
+    })
+    case NO_SUCH_GAME:
+    return Object.assign({}, state, {
+      ...state,
+        hasGame: action.hasGame
     })
     //other actions
     default:
@@ -23,4 +36,4 @@ const games = (state = [], action) => {
   }
 }
 
-export default games
+export default selectedGame

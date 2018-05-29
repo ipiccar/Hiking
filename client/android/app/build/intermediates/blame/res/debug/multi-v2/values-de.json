@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Icarus/Desktop/Hiking 2/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "outputFile": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
             "map": [
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/73d3052952774c71e500fc290f5dd893/res/values-de/values.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/98bd23d6beab8951d42f5b051809e7f5/res/values-de/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4774",
-                        "endColumns": "100",
-                        "endOffsets": "4870"
-                    }
-                },
-                {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/values-de/values-de.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be37bdd82180fda8115a908faf86a44c/res/values-de/values-de.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/501e48634fdb862a26ba624875fdb403/res/values-de/values.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9e601277f13a4b1b3e69f5c1f7ccfbe9/res/values-de/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "1852,1963,2159,2289,2403,2640,2773,2924,3276,3515,3629,3829,3962,4183,4389,4490,4583",
                         "endColumns": "110,195,129,113,236,132,150,147,238,113,199,132,220,205,100,92,108",
                         "endOffsets": "1958,2154,2284,2398,2635,2768,2919,3067,3510,3624,3824,3957,4178,4384,4485,4578,4687"
+                    }
+                },
+                {
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/c429be6e5343a7a1c6e5612624dfe354/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4774",
+                        "endColumns": "100",
+                        "endOffsets": "4870"
                     }
                 }
             ]

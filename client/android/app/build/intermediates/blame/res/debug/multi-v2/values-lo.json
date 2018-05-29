@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Icarus/Desktop/Hiking 2/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/values-lo/values-lo.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4640",
-                        "endColumns": "100",
-                        "endOffsets": "4736"
-                    }
-                },
-                {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/73d3052952774c71e500fc290f5dd893/res/values-lo/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "2990",
-                        "endColumns": "190",
-                        "endOffsets": "3176"
-                    }
-                },
-                {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/values-lo/values-lo.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be37bdd82180fda8115a908faf86a44c/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/501e48634fdb862a26ba624875fdb403/res/values-lo/values.xml",
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9e601277f13a4b1b3e69f5c1f7ccfbe9/res/values-lo/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +35,40 @@
                         "startOffsets": "1816,1926,2128,2260,2369,2580,2707,2845,3181,3392,3499,3696,3827,4057,4248,4346,4445",
                         "endColumns": "109,201,131,108,210,126,137,144,210,106,196,130,229,190,97,98,113",
                         "endOffsets": "1921,2123,2255,2364,2575,2702,2840,2985,3387,3494,3691,3822,4052,4243,4341,4440,4554"
+                    }
+                },
+                {
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/98bd23d6beab8951d42f5b051809e7f5/res/values-lo/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "2990",
+                        "endColumns": "190",
+                        "endOffsets": "3176"
+                    }
+                },
+                {
+                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/c429be6e5343a7a1c6e5612624dfe354/res/values-lo/values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4640",
+                        "endColumns": "100",
+                        "endOffsets": "4736"
                     }
                 }
             ]
