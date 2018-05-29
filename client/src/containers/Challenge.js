@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Dimensions, View, ImageBackground, Text, TouchableOpacity } from "react-native";
 import { connect } from 'react-redux';
-import { getGameInfos } from "../actions/games";
 import { Actions } from "react-native-router-flux";
 import { Button } from "../components";
 import Camera from 'react-native-camera';
+import RNFetchBlob from 'react-native-fetch-blob';
+
 
 class Challenge extends Component {
 
@@ -16,18 +17,11 @@ class Challenge extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
-                    {this.props.selectedChallenge ? (
-                        <View style={{flex: 2, alignItems: "center"}}>
-                            <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
-                                <Text style={styles.logo}>{this.props.selectedChallenge}</Text>
-                            </ImageBackground>
-                            <Text style={styles.text}>{this.props.selectedChallenge.description}</Text>
-                            <Button onPress={()=> this.setState({on:true})} text="Join a team"/>
-                        </View>)
-                     : <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
-                    }
-                <View style={styles.card}>
-                    <Camera
+            <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
+                   <Text style={styles.logo}>{this.props.selectedChallenge.description}</Text>
+                </ImageBackground>
+                <View style={{ flex: 1 }}>
+                <Camera
                         ref={(cam) => {
                             this.camera = cam;
                         }}
@@ -47,6 +41,18 @@ class Challenge extends Component {
     takePicture() {
         this.camera.capture()
             .then((picture) => {
+
+                RNFetchBlob.fetch('POST', 'http://10.113.51.23:3000/upload', {
+                    '   Content-Type' : 'multipart/form-data',
+                        }, [
+                        { name : 'avatar-foo', filename : 'avatar-foo.png', type:'image/jpeg', data: RNFetchBlob.wrap(picture.path)},
+                  ]).then((resp) => {
+                    // ...
+                  }).catch((err) => {
+                    // ...
+                  })
+
+
                 const data = new FormData();
                 //data.append('name', 'testName'); // you can append anyone.
                 data.append('file', {
@@ -54,12 +60,10 @@ class Challenge extends Component {
                     type: 'image/jpeg', // or photo.type
                     name: 'testPhotoName'
                 });
-                data.append('name', "coucou");
                 const config = {
                     method: 'POST',
                     headers: {
                       'Accept': 'application/json',
-                      'Content-Type': 'multipart/form-data;',
                     },
                     body: data,
                    }
@@ -168,7 +172,8 @@ class Challenge extends Component {
         routes: state.routes,
         profile: state.profile,
         selectedGame: state.selectedGame,
-        teams: state.teams
+        teams: state.teams,
+        selectedChallenge: state.selectedChallenge
     })
 
     export default connect(mapStateToProps)(Challenge)

@@ -47,7 +47,7 @@ export function selectChallenge(challenge) {
     challengeId: challenge._id,
     poiId: challenge.poiId,
     name: challenge.name,
-    type: challenge.type,
+    challengeType: challenge.type,
     var: challenge.var,
     isDone: false,
     pointsWon: challenge.pointsWon,

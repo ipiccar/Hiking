@@ -12,7 +12,7 @@ const selectedChallenge = (state = [], action) => {
             challengeId: action.challengeId,
             poiId: action.poiId,
             name: action.name,
-            type: action.type,
+            type: action.challengeType,
             var: action.var,
             isDone: action.isDone,
             pointsWon: action.pointsWon,

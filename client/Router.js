@@ -22,7 +22,7 @@ const RouterComponent = ({ store }) => {
         <RouterWithRedux>
           <Router>
               <Stack key="root">
-                  <Scene key="main" component={Main} title="Welcome" hideNavBar={true}/>
+                  <Scene key="main" component={Main} title="Welcome" hideNavBar={true} />
                   <Scene key="login" component={Login} title="Login" hideNavBar={true}/>
                   <Scene key="adminMain" component={AdminMain} title="Main" hideNavBar={true} />
                   <Scene key="scan" component={JoinGame} title="Scan" hideNavBar={true} />
