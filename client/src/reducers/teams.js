@@ -27,15 +27,15 @@ const games = (state = [], action) => {
         return Object.assign({}, state, {
             ...state,
             byId: state.byId.map((team) => {
-              if (team.id === action.teamId) {
+              if (team.teamId === action.teamId) {
                 return Object.assign({}, team, {
                   ...team,
-                  users: team.users.push({
+                  users: [...team.users, ...[{
                     _id: action.user.userId,
                     name: action.user.name,
-                    MAC: action.user.mac
-                  }),
-                  nbUsers: state.users.length,
+                    MAC: action.user.mac,
+                  }]],
+                  nbUsers: team.nbUsers = team.nbUsers + 1,
                 })
               } else {
                 return team
@@ -46,13 +46,10 @@ const games = (state = [], action) => {
         return Object.assign({}, state, {
             ...state,
             byId: state.byId.map((team) => {
-              if (team.id === action.teamId) {
+              if (team.teamId === action.teamId) {
                 return Object.assign({}, team, {
-                  users: team.users.map((user) => {
-                    if (user._id !== action.userId){
-                      return user;
-                    }
-                  })
+                  users: team.users.filter((user, index) => user._id !== action.user.userId),
+                  nbUsers: team.nbUsers = team.nbUsers - 1,
                 })
               } else {
                 return team;

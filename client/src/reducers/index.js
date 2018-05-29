@@ -14,7 +14,8 @@ import {
   ALREADY_EXISTS,
   CHOOSE_GAME,
   NO_SUCH_GAME,
-  JOIN_TEAM
+  JOIN_TEAM,
+  LEAVE_TEAM
 } from "../actions/constants" //Import the actions types constant we defined in our actions
 
 
@@ -66,6 +67,11 @@ const dataReducer = (state = dataState, action) => {
                 loading: action.loading
             });
         case JOIN_TEAM:
+            state = Object.assign({}, state, {
+                ...state,
+                loading: action.loading
+            });
+        case LEAVE_TEAM:
             state = Object.assign({}, state, {
                 ...state,
                 loading: action.loading
