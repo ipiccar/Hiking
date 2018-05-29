@@ -1,17 +1,36 @@
 import React, { Component } from 'react';
-import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { Header, Card, CardSection, Input, Button, MyGradient } from "../components";
+import { View, Image, ImageBackground, Text, TextInput} from "react-native";
+import { Header, Card, CardSection, Input, Button } from "../components";
 import { connect } from 'react-redux';
+import {launchRefresh} from '../actions/refresh'
+import {initNotifications} from '../actions/notifications'
 
 class WaitingRoom extends Component {
 
-    state={isAdmin:false, hikerName:""};
+  constructor(props){
+      super(props);
+      this.state={isAdmin:false, hikerName:""};
+      this.refresher=this.refresher.bind(this);
+      this.initNotification=this.initNotification.bind(this);
+  }
+
 
     pressJoin() {
         ;
     }
 
+    refresher(){
+      console.log(this.props.selectedGame.gameId);
+      console.log(this.props.selectedGame.gameId);
+      this.props.dispatch(launchRefresh(this.props.selectedGame.gameId, this.props.selectedTeam.teamId))
+    }
+
+    initNotification(){
+      this.props.dispatch(initNotifications(this.props.selectedGame.gameId))
+    }
+
     render() {
+      initNotification();
         return (
             <View style={{flex:1}}>
                 <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
@@ -21,6 +40,9 @@ class WaitingRoom extends Component {
                 <View style={styles.card}>
                     <Text style={styles.title}>Waiting for the game master</Text>
                     <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                    <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
+                      <Button onPress={()=> this.startGame()} text="Start game" disabled={this.props.notifications !== undefined ? true : false}/>
+                    </View>
                 </View>
             </View>
         );
@@ -103,26 +125,15 @@ const styles = {
     }
 };
 
-export function postForm(path, form) {
-    const base = options.baseUrl || "";
-    const str = [];
-    for (let p in form) {
-        str.push(encodeURIComponent(p) + "=" + encodeURIComponent(form[p]));
-    }
-    const body = str.join("&");
-    const req = {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body
-    };
-    return fetch(base + path, req);
-}
-
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, props) => ({
+  dataReducer: state.dataReducer,
   routes: state.routes,
-  games: state.games
+  games: state.games,
+  teams: state.teams,
+  profile: state.profile,
+  selectedGame: state.selectedGame,
+  selectedTeam: state.selectedTeam,
+  notifications: state.notifications
 })
 
 export default connect(mapStateToProps)(WaitingRoom)

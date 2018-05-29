@@ -5,20 +5,20 @@ import { Actions } from "react-native-router-flux";
 import { Button, Button2 } from "../components";
 
 import {create_user, fetch_login} from '../actions/action_users';
-import {launchRefresh} from '../actions/refresh'
 
 class Main extends Component {
 
     constructor(props){
         super(props);
-        this.state ={
-          hikerName:"",
-          emptyField:true,
-          tryToSend: false,
-        };
+
         this.checkUser=this.checkUser.bind(this);
-        this.refresher=this.refresher.bind(this);
     }
+
+    this.state ={
+      hikerName:"",
+      emptyField:true,
+      tryToSend: false,
+    };
 
     fieldChange(input){
       this.setState({tryToSend:false})
@@ -41,12 +41,6 @@ class Main extends Component {
       }
     }
 
-    refresher(){
-      console.log(this.state.gameId);
-      console.log(this.state.teamId);
-      this.props.dispatch(launchRefresh(this.state.gameId, this.state.teamId))
-    }
-
     render() {
         return (
             <View style={{flex:1}}>
@@ -65,7 +59,7 @@ class Main extends Component {
                         autoCorrect={false}
                         returnKeyType="next"/>
                         <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
-                          <Button onPress={this.refresher} text="Join" />
+                          <Button onPress={this.checkUser} text="Join" />
                         </View>
                 </View>
             </View>

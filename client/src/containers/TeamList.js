@@ -71,7 +71,7 @@ class TeamList extends Component{
                     )}
                 </View>
                 <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
-                  <Button onPress={()=> {}} text="Create team" disabled={this.state.hasCreatedTeam}/>
+                  <Button onPress={Actions.waitingroom} text="Create team" disabled={this.state.hasCreatedTeam}/>
                   <Button2 onPress={()=> this.pressStart()} text="Start"/>
                 </View>
           </View>

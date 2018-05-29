@@ -29,3 +29,6 @@ export const ADMIN_LOGIN = 'ADMIN_LOGIN';
 export const NEW_USER = 'NEW_USER';
 
 export const PLAYER_REFRESH = 'PLAYER_REFRESH';
+export const REFRESH_GAME = 'REFRESH_GAME';
+
+export const INIT_NOTIFICATION = 'INIT_NOTIFICATION';

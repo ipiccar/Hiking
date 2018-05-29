@@ -1,11 +1,6 @@
 import {
-  DISPLAY_TEAM,
-  CHOOSE_TEAM,
-  LOADING,
-  CHOOSE_GAME,
-  JOIN_TEAM,
-  LEAVE_TEAM,
   PLAYER_REFRESH,
+  REFRESH_GAME,
   url
 } from "./constants"
 import {Actions} from "react-native-router-flux";
@@ -14,6 +9,8 @@ const isRefreshing = false;
 const isOnline = true;
 const teamId = '';
 const gameId = '';
+
+let promises = [];
 
 responses = {
   teamUpdate: '',
@@ -38,15 +35,23 @@ export function launchRefresh(gameId, teamId){
   };
 }
 
+
+function sendRefresh(requests, dispatch) {
+  return new Promise((resolve, reject) => {
+        console.log('NEW_PROMISE');
+        let timer = setInterval(function() {
+          refreshGame(gameId);
+
+        }, 1000)
+  })
+}
+/*
 function sendRefresh(requests, dispatch) {
   return new Promise((resolve, reject) => {
         console.log('NEW_PROMISE');
         let timer = setInterval(function() {
           console.log('TIMER');
           console.log(timer);
-
-          while (isRefreshing && isOnline ) {
-
             fetch(requests.teamUpdate)
             .then(response => {
               console.log(response.json());
@@ -69,11 +74,10 @@ function sendRefresh(requests, dispatch) {
             .catch(() => {
                 clearInterval(timer);
             });
-          }
             console.log('ALL_SENT');
             console.log(promises);
             clearInterval(timer);
-        }, 5000)
+        }, 1000)
   })
 }
 
@@ -88,8 +92,44 @@ function promiseAll(promises, dispatch){
     dispatch(totalRefresh(response))
   })
 }
+*/
+
+function refreshGame(gameId) {
+    return function (dispatch) {
+        // Display loader
+        console.log("accessing : "+ url + 'games/' + gameId);
+        fetch(url + 'games/' + gameId)
+            .then((response) => response.json())
+            .then((responseJson) => {
+              if (responseJson._id != undefined) {
+                console.log("Response received : ");
+                console.log(responseJson);
+                dispatch(refreshGame(responseJson));
+                Actions.gdetail();
+              } else {
+                console.log("No such game");
+              }
+
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+        }
+}
 
 //Dispatchers
+
+function refreshGame(response) {
+  return {
+    type: REFRESH_GAME,
+    gameId: response._id,
+    name: response.name,
+    description: response.description,
+    pois: response.pois,
+    gms: response.gms,
+    hasGame: true
+  }
+}
 
 function totalRefresh(responses){
   return {
