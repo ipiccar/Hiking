@@ -15,7 +15,8 @@ import {
   ALREADY_EXISTS,
   CHOOSE_GAME,
   NO_SUCH_GAME,
-  JOIN_TEAM
+  JOIN_TEAM,
+  SELECTED_CHALLENGE
 } from "../actions/constants" //Import the actions types constant we defined in our actions
 
 

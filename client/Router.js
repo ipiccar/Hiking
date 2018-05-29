@@ -12,6 +12,7 @@ import MapActivity from "./src/containers/MapActivity";
 import Login from "./src/containers/Login";
 import AdminMain from "./src/containers/AdminMain";
 import NotificationList from "./src/containers/NotificationList";
+import Challenge from './src/containers/Challenge';
 
 const RouterWithRedux = connect()(Router);
 

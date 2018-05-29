@@ -28,7 +28,11 @@ export const ALREADY_EXISTS = 'ALREADY_EXISTS';
 export const ADMIN_LOGIN = 'ADMIN_LOGIN';
 export const NEW_USER = 'NEW_USER';
 
+<<<<<<< HEAD
 export const PLAYER_REFRESH = 'PLAYER_REFRESH';
 export const REFRESH_GAME = 'REFRESH_GAME';
 
 export const INIT_NOTIFICATION = 'INIT_NOTIFICATION';
+=======
+export const SELECTED_CHALLENGE = 'SELECTED_CHALLENGE';
+>>>>>>> master

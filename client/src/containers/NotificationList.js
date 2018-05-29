@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
+import { Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
 import { connect } from 'react-redux';
 import { displayTeam } from "../actions/selectedTeam"
 import { Button, Button2 } from "../components";
@@ -15,30 +15,27 @@ class NotificationList extends Component{
 
 
     render(){
-        return(
+        if (this.props.notifications.byId === undefined){
+            return (
+              <View style={styles.container}>
+                <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+              </View>
+            );
+          }
+          return(
             <View style={styles.container}>
-                <View style={{flex:8}}>
-                    <Text style={styles.title}>Read the notifications</Text>
-                    {this.props.notifications.byId !== undefined ? (
-                        <View style={{marginLeft:40, marginRight:40}}>
-                            {this.props.notifications.byId.map(notif => (
-                              <TouchableOpacity onPress={()=> this.pressNotif(notif)}>
-                                  <View key={notif.notificationId} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
-                                      <Image source={require('../images/icon_profile_team_brown.png')} style={{width:60, height:44, marginRight:20}}/>
-                                      <View style={{flexDirection:"column",paddingLeft:20}}>
-                                          <Text style={styles.text}> {notif.description} </Text>
-                                      </View>
-                                  </View>
-                              </TouchableOpacity>
-                            )
-                          )}
-                        </View>
-                    ) : (
-                        <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
-                    )}
-                </View>
-          </View>
-        )
+              <Text style={styles.title}>Notifications</Text>
+              <ScrollView contentContainerStyle={{flexGrow:1}} style={{paddingLeft:40, paddingRight:40}}>
+                  {this.props.notifications.notifications.map(notif => (
+                      <View key={notif._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
+                          <View style={{flexDirection:"column",paddingLeft:20}}>
+                              <Text style={styles.text}> {notif.description} </Text>
+                          </View>
+                      </View>
+                  ))}
+              </ScrollView>
+            </View>
+          )
 }}
 
 

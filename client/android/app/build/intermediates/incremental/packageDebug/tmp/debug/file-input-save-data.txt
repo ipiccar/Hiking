@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Tue May 29 17:38:26 CEST 2018
+=======
+#Tue May 29 22:27:46 CEST 2018
+>>>>>>> master
 17.baseType=DIRECTORY
 4.path=lib/x86/libreactnativejni.so
 25.base=/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
