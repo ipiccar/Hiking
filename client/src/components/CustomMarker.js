@@ -26,7 +26,6 @@ const CustomMarker  = ({type, children}) =>
     )
       break;
     default:
-
   }
 }
 

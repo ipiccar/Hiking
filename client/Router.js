@@ -11,6 +11,7 @@ import PlayerList from "./src/containers/PlayerList";
 import MapActivity from "./src/containers/MapActivity";
 import Login from "./src/containers/Login";
 import AdminMain from "./src/containers/AdminMain";
+import NotificationList from "./src/containers/NotificationList";
 
 const RouterWithRedux = connect()(Router);
 
@@ -30,6 +31,7 @@ const RouterComponent = ({ store }) => {
                   <Scene key="waitingroom" component={WaitingRoom} title="Waiting Room" hideNavBar={true} />
                   <Scene key="map" component={MapActivity} title="Map" hideNavBar={true} initial/>
                   <Scene key="legend" component={LegendActivity} title="Legend" hideNavBar={true}/>
+                  <Scene key="notifications" component={NotificationList} title="Notifications" hideNavBar={true}/>
               </Stack>
           </Router>
         </RouterWithRedux>
