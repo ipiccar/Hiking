@@ -23,18 +23,19 @@ const selectedTeam = (state = [], action) => {
             challenges: action.team.challenges,
             nbChallenges: action.team.nbChallenges
         })
-    case JOIN_TEAM:
-        console.log(state.users);
-        return Object.assign({}, state, {
-            ...state,
-            users: [...state.users, ...{
-                _id: action.user.userId,
-                name: action.user.name,
-                MAC: action.user.mac,
-            }],
-            nbUsers: state.users.length,
-            joined: true
-        })
+        case JOIN_TEAM:
+            console.log(state.users);
+            console.log(action);
+            return Object.assign({}, state, {
+                ...state,
+                users: [...state.users, ...state.users.push({
+                  _id: action.user.userId,
+                  name: action.user.name,
+                  MAC: action.user.mac,
+                })],
+                nbUsers: state.users = state.users +1 ,
+                joined: true
+            })
     case LEAVE_TEAM:
         return Object.assign({}, state, {
             joined: false

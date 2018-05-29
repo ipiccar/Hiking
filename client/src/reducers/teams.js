@@ -29,6 +29,7 @@ const games = (state = [], action) => {
             byId: state.byId.map((team) => {
               if (team.id === action.teamId) {
                 return Object.assign({}, team, {
+                  ...team,
                   users: team.users.push({
                     _id: action.user.userId,
                     name: action.user.name,

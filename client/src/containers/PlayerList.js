@@ -22,31 +22,30 @@ class PlayerList extends Component{
     }
 
     render(){
+      if (this.props.teams.byId === undefined){
+        return (
+          <View style={styles.container}>
+            <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+          </View>
+        );
+      }
       return(
           <View style={styles.container}>
-              <View style={{flex:1}}>
-                  <Text style={styles.title}>{this.props.selectedTeam.name}</Text>
-                  {this.props.teams.byId !== undefined ? (
-                      <View>
-                        <ScrollView style={{marginLeft:40, marginRight:40}}>
-                            {this.props.selectedTeam.users.map(player => (
-                                <View key={player._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
-                                    <Image source={require('../images/icon_profile_single_brown.png')} style={{width:56, height:60, marginRight:20}}/>
-                                    <View style={{flexDirection:"column",paddingLeft:20}}>
-                                        <Text style={styles.text}> {player.name} </Text>
-                                    </View>
-                                </View>
-                            ))}
-                        </ScrollView>
-                        <View style={{ flex:1, flexDirection:"row", width:"100%"}}>
-                          <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
+            <Text style={styles.title}>{this.props.selectedTeam.name}</Text>
+            <ScrollView contentContainerStyle={{flexGrow:1}} style={{paddingLeft:40, paddingRight:40}}>
+                {this.props.selectedTeam.users.map(player => (
+                    <View key={player._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
+                        <Image source={require('../images/icon_profile_single_brown.png')} style={{width:56, height:60, marginRight:20}}/>
+                        <View style={{flexDirection:"column",paddingLeft:20}}>
+                            <Text style={styles.text}> {player.name} </Text>
                         </View>
-                      </View>
-                  ) : (
-                      <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
-                  )}
+                    </View>
+                ))}
+            </ScrollView>
+              <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
+                <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
               </View>
-        </View>
+          </View>
         )
     }
   }
@@ -81,9 +80,8 @@ const styles = {
         flex: 1,
         backgroundColor: '#DED3BF',
         flexDirection:"column",
-        alignItems:"flex-start",
-        justifyContent:"flex-start",
-
+        alignItems:"stretch",
+        justifyContent:"flex-end"
 
     },
     title:{

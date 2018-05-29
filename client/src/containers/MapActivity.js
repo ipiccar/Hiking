@@ -4,7 +4,8 @@ import { IgnMap, CustomMarker } from "../components"
 import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 import { Marker } from 'react-native-maps';
-
+import Drawer from 'react-native-drawer';
+import LegendActivity from "../containers/LegendActivity";
 import marker_dark1 from '../images/marker_dark1.png';
 
 
@@ -38,6 +39,19 @@ class MapActivity extends React.Component {
         })
     }
 
+    toggleDrawer() {
+      this.state.toggled ? this._drawer.close() : this._drawer.open();
+    }
+
+    closeDrawer(){
+      this.setState({toggled:false});
+    };
+
+
+    openDrawer(){
+      this.setState({toggled:true});
+    };
+
     render() {
         const { isOffline } = this.state.profile.isOffline;
         const {routes} = this.context;
@@ -49,6 +63,19 @@ class MapActivity extends React.Component {
         if (this.state.profile.type == "GM" && this.state.profile.isEditing) {
           return (
               <View style={styles.container}>
+                <Drawer
+                          type="overlay"
+                          ref={(ref) => { this._drawer = ref; }}
+                          content={<LegendActivity/>}
+                          onClose={this.closeDrawer.bind(this)}
+                          onOpen={this.openDrawer.bind(this)}
+                          panOpenMask={0.30}
+                          panCloseMask={0.30}
+                          captureGestures
+                          side="right"
+                          negotiatePan = {true}
+                          styles="zIndex:2"
+                        >
                   <View style={styles.actionContainer}>
                       <TouchableOpacity
                           style={{
@@ -86,11 +113,25 @@ class MapActivity extends React.Component {
                       onRegionChange = {this.handleMapRegionChange}
                       urlTemplate = {urlTemplate}>
                   </IgnMap>
+                </Drawer>
               </View>
           )
         } else if (this.state.profile.type == "GM" && !this.state.profile.isEditing) {
           return (
               <View style={styles.container}>
+                <Drawer
+                          type="overlay"
+                          ref={(ref) => { this._drawer = ref; }}
+                          content={<LegendActivity/>}
+                          onClose={this.closeDrawer.bind(this)}
+                          onOpen={this.openDrawer.bind(this)}
+                          panOpenMask={0.30}
+                          panCloseMask={0.20}
+                          captureGestures
+                          side="right"
+                          negotiatePan = {true}
+                          styles="zIndex:2"
+                        >
                   <View style={styles.actionContainer}>
                       <TouchableOpacity
                           style={{
@@ -136,6 +177,7 @@ class MapActivity extends React.Component {
                           <CustomMarker type="type1"/>
                         </Marker>
                   </IgnMap>
+                </Drawer>
               </View>
           )
         }

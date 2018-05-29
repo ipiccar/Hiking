@@ -9,11 +9,10 @@ import {
 } from "./constants"
 import {Actions} from "react-native-router-flux";
 
-const myRequest = new Request(url+'game', {method: 'GET'});
-
 //Exports
 
 export function joinTeam (teamId, user){
+console.log("JOIN TEAM");
     return function(dispatch) {
 
         dispatch(isFetching());
@@ -30,11 +29,10 @@ export function joinTeam (teamId, user){
         })
             .then((response) => response.json())
             .then((responseJson) => {
-              console.log(responseJson);
               if (responseJson) {
                 console.log("got a response from server");
-                
-                dispatch(joinTeam(teamId, user));
+
+                dispatch(joinedTeam(teamId, user));
               } else {
                 console.log(user.name + " Didn't join team");
               }
@@ -99,7 +97,7 @@ function isFetching(){
   }
 }
 
-function joinTeam(teamId, user){
+function joinedTeam(teamId, user){
     return {
         type: JOIN_TEAM,
         teamId: teamId,
