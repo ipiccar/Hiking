@@ -39,7 +39,7 @@ const games = (state = [], action) => {
     case CHOOSE_GAME:
     return Object.assign({}, state, {
       ...state,
-      isPlaying: action.gameId
+      isPlaying: action.isPlaying
     })
     case EDIT_GAME:
     return Object.assign({}, state, {

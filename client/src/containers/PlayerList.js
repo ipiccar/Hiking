@@ -15,7 +15,7 @@ class PlayerList extends Component{
     joinTeam(){
         this.props.selectedTeam.joined ?
         (
-          this.props.dispatch(leaveTeam(this.props.selectedTeam.teamId, this.props.profile.userId))
+          this.props.dispatch(leaveTeam(this.props.selectedTeam.teamId, this.props.profile))
         ) : (
           this.props.dispatch(joinTeam(this.props.selectedTeam.teamId, this.props.profile))
         )
@@ -36,15 +36,15 @@ class PlayerList extends Component{
                 {this.props.selectedTeam.users.map(player => (
                     <View key={player._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
                         <Image source={require('../images/icon_profile_single_brown.png')} style={{width:56, height:60, marginRight:20}}/>
-                        <View style={{flexDirection:"column",paddingLeft:20}}>
+                        <View style={{flexDirection:"column",paddingLeft:20, flex:1}}>
                             <Text style={styles.text}> {player.name} </Text>
                         </View>
                     </View>
                 ))}
             </ScrollView>
-              <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
-                <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
-              </View>
+            <View style={{width:"100%", backgroundColor:"#DED3BF", padding:40}}>
+              <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
+            </View>
           </View>
         )
     }
@@ -81,7 +81,7 @@ const styles = {
         backgroundColor: '#DED3BF',
         flexDirection:"column",
         alignItems:"stretch",
-        justifyContent:"flex-end"
+        justifyContent:"center"
 
     },
     title:{
