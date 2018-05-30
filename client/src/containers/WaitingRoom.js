@@ -14,6 +14,7 @@ class WaitingRoom extends Component {
       this.state={isAdmin:false, hikerName:""};
       this.refresher=this.refresher.bind(this);
       this.getNotifications=this.getNotifications.bind(this);
+      this.getNotifications()
   }
 
 
@@ -32,9 +33,9 @@ class WaitingRoom extends Component {
     }
 
     render() {
+      if (this.props.notifications.byId === undefined){
         return (
             <View style={{flex:1}}>
-              {this.getNotifications}
                 <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
                 <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
                 <ImageBackground source={require('../images/people_and_trophy.png')} style={{width:300, height:100}}/>
@@ -42,12 +43,26 @@ class WaitingRoom extends Component {
                 <View style={styles.card}>
                     <Text style={styles.title}>Waiting for the game master</Text>
                     <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                </View>
+            </View>
+        );
+      } else {
+        return (
+            <View style={{flex:1}}>
+                <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
+                <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
+                <ImageBackground source={require('../images/people_and_trophy.png')} style={{width:300, height:100}}/>
+                </ImageBackground>
+                <View style={styles.card}>
+                    <Text style={styles.title}>Game is ready</Text>
                     <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
-                      <Button onPress={()=> this.startGame()} text="Start game" disabled={this.props.notifications.byId !== undefined ? true : false}/>
+                      <Button onPress={()=> this.startGame()} text="Start game"/>
                     </View>
                 </View>
             </View>
         );
+      }
+
     }
 }
 
@@ -70,7 +85,7 @@ const styles = {
         backgroundColor: '#DED3BF',
         flexDirection:"column",
         alignItems:"center",
-        justifyContent:"center",
+        justifyContent:"space-around",
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
         shadowOpacity: 0.1,
