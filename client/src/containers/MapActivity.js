@@ -9,7 +9,6 @@ import LegendActivity from "../containers/LegendActivity";
 import marker_dark1 from '../images/marker_dark1.png';
 import geolib from 'geolib';
 
-
 const { width, height } = Dimensions.get('window');
 
 const ASPECT_RATIO = width / height;
@@ -19,8 +18,34 @@ const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
 
+async function requestLocationPermission() {
+  try {
+    const granted = await PermissionsAndroid.request(
+      PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+      {
+        'title': 'Map location Permission',
+        'message': 'Bearlock Holmez needs access to your location ' +
+                   'so you can use the map.'
+      }
+    )
+    if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+      console.log("You can use the map")
+    } else {
+      console.log("Location permission denied")
+    }
+  } catch (err) {
+    console.warn(err)
+  }
+}
 
 class MapActivity extends React.Component {
+
+  constructor(props) {
+      super(props);
+      this.checkChallenge=this.checkChallenge.bind(this);
+      requestLocationPermission();
+  }
+
     state = {
         //urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3812/{z}/{y}/{x}.png',
         urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3857/{z}/{y}/{x}.png',
