@@ -122,6 +122,7 @@ class MapActivity extends React.Component {
     }
 
     startChallenge(poi){
+        Actions.challenge();
         console.log("start challenge");
     }
 
