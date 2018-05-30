@@ -1,5 +1,5 @@
-//export const url = "http://193.190.248.152:3000/";
-export const url = "http://10.113.51.23:3000/";
+export const url = "http://193.190.248.152:3000/";
+//export const url = "http://10.113.51.23:3000/";
 //export const url = "http://localhost:3000/";
 
 
@@ -28,11 +28,10 @@ export const ALREADY_EXISTS = 'ALREADY_EXISTS';
 export const ADMIN_LOGIN = 'ADMIN_LOGIN';
 export const NEW_USER = 'NEW_USER';
 
-<<<<<<< HEAD
+
 export const PLAYER_REFRESH = 'PLAYER_REFRESH';
 export const REFRESH_GAME = 'REFRESH_GAME';
 
-export const INIT_NOTIFICATION = 'INIT_NOTIFICATION';
-=======
+export const INIT_NOTIFICATIONS = 'INIT_NOTIFICATIONS';
+
 export const SELECTED_CHALLENGE = 'SELECTED_CHALLENGE';
->>>>>>> master

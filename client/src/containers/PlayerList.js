@@ -15,7 +15,7 @@ class PlayerList extends Component{
     joinTeam(){
         this.props.selectedTeam.joined ?
         (
-          this.props.dispatch(leaveTeam(this.props.selectedTeam.teamId, this.props.profile.userId))
+          this.props.dispatch(leaveTeam(this.props.selectedTeam.teamId, this.props.profile))
         ) : (
           this.props.dispatch(joinTeam(this.props.selectedTeam.teamId, this.props.profile))
         )
@@ -24,7 +24,7 @@ class PlayerList extends Component{
     render(){
       if (this.props.teams.byId === undefined){
         return (
-          <View style={styles.container}>
+          <View style={styles.loading}>
             <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
           </View>
         );
@@ -42,7 +42,7 @@ class PlayerList extends Component{
                     </View>
                 ))}
             </ScrollView>
-              <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
+              <View style={{ flexDirection:"row", width:"100%", backgroundColor:"#DED3BF", padding:40}}>
                 <Button onPress={()=> this.joinTeam()} text={this.props.selectedTeam.joined ? "Leave team" : "Join team"}/>
               </View>
           </View>
@@ -83,6 +83,13 @@ const styles = {
         alignItems:"stretch",
         justifyContent:"flex-end"
 
+    },
+    loading: {
+        flex: 1,
+        backgroundColor: '#DED3BF',
+        flexDirection:"column",
+        alignItems:"center",
+        justifyContent:"center"
     },
     title:{
         textAlign:"center",

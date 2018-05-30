@@ -1,5 +1,5 @@
 import {
-    INIT_NOTIFICATION,
+    INIT_NOTIFICATIONS,
     url
 } from "./constants"
 import {Actions} from "react-native-router-flux";
@@ -7,7 +7,6 @@ import {Actions} from "react-native-router-flux";
 export function initNotifications(gameId){
     return function(dispatch) {
 
-        dispatch(isFetching());
         console.log(gameId);
         fetch(url + 'notifications/game/' + gameId)
             .then((response) => response.json())
@@ -15,10 +14,10 @@ export function initNotifications(gameId){
                 console.log("Response received : ");
                 console.log(responseJson);
 
-                if(responseJson._id!=undefined){
+                if(responseJson[0].gameId!=undefined){
                   //Notification defined
                     console.log("Notification defined");
-                    dispatch(initNotifications(responseJson));
+                    dispatch(displayNotifications(responseJson));
                 } else {
                   //No notifications
                   console.log("No notifications");
@@ -34,12 +33,9 @@ export function initNotifications(gameId){
 
 //Dispatchers
 
-function initNotifications(response){
+function displayNotifications(response){
   return {
     type: INIT_NOTIFICATIONS,
-    notificationId: response._id,
-    description: response.description,
-    timestamp: response.timestamp,
-    teams: response.teams
+    notifications: response
   }
 }

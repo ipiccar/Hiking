@@ -4,6 +4,8 @@ import { Header, Card, CardSection, Input, Button } from "../components";
 import { connect } from 'react-redux';
 import {launchRefresh} from '../actions/refresh'
 import {initNotifications} from '../actions/notifications'
+import { Actions } from "react-native-router-flux";
+
 
 class WaitingRoom extends Component {
 
@@ -11,12 +13,12 @@ class WaitingRoom extends Component {
       super(props);
       this.state={isAdmin:false, hikerName:""};
       this.refresher=this.refresher.bind(this);
-      this.initNotification=this.initNotification.bind(this);
+      this.getNotifications=this.getNotifications.bind(this);
   }
 
 
-    pressJoin() {
-        ;
+    startGame() {
+        Actions.map();
     }
 
     refresher(){
@@ -25,14 +27,14 @@ class WaitingRoom extends Component {
       this.props.dispatch(launchRefresh(this.props.selectedGame.gameId, this.props.selectedTeam.teamId))
     }
 
-    initNotification(){
+    getNotifications(){
       this.props.dispatch(initNotifications(this.props.selectedGame.gameId))
     }
 
     render() {
-      initNotification();
         return (
             <View style={{flex:1}}>
+              {this.getNotifications}
                 <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
                 <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
                 <ImageBackground source={require('../images/people_and_trophy.png')} style={{width:300, height:100}}/>
@@ -41,7 +43,7 @@ class WaitingRoom extends Component {
                     <Text style={styles.title}>Waiting for the game master</Text>
                     <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
                     <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
-                      <Button onPress={()=> this.startGame()} text="Start game" disabled={this.props.notifications !== undefined ? true : false}/>
+                      <Button onPress={()=> this.startGame()} text="Start game" disabled={this.props.notifications.byId !== undefined ? true : false}/>
                     </View>
                 </View>
             </View>

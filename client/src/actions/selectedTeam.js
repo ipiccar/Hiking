@@ -5,6 +5,7 @@ import {
   CHOOSE_GAME,
   JOIN_TEAM,
   LEAVE_TEAM,
+  NEW_TEAM,
   url
 } from "./constants"
 import {Actions} from "react-native-router-flux";
@@ -44,12 +45,12 @@ console.log("JOIN TEAM");
     }
 }
 
-export function leaveTeam (teamId, userId){
+export function leaveTeam (teamId, user){
     return function(dispatch) {
 
         dispatch(isFetching());
         console.log(teamId);
-        console.log(userId);
+        console.log(user.userId);
         fetch(url + 'teams/leave/', {
             method: 'POST',
             headers: {
@@ -57,14 +58,55 @@ export function leaveTeam (teamId, userId){
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                userId: userId,
+                userId: user.userId,
                 teamId: teamId
+            }),
+        })
+        .then((response) => response.json())
+        .then((responseJson) => {
+          if (responseJson) {
+            console.log("got a response from server");
+
+            dispatch(leftTeam(teamId, user));
+          } else {
+            console.log(user.name + " Didn't left the team");
+          }
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+    }
+}
+export function create_team (teamName, gameId, userId){
+    console.log(teamName);
+    console.log(gameId);
+    console.log(userId);
+    return function(dispatch) {
+
+        dispatch(isFetching());
+        fetch(url + 'teams/', {
+            method: 'POST',
+            headers: {
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name: teamName,
+                gameId: gameId,
+                userId: userId
             }),
         })
             .then((response) => response.json())
             .then((responseJson) => {
+              if (responseJson._id) {
+                console.log("got a response from server");
                 console.log(responseJson);
-                dispatch(leaveTeam(responseJson));
+                dispatch(createdTeam(responseJson));
+              } else {
+                console.log(responseJson);
+                console.log(teamName + " Didn't left the team");
+              }
+
             })
             .catch((error) => {
                 console.error(error);
@@ -106,10 +148,22 @@ function joinedTeam(teamId, user){
     }
 }
 
-function leaveTeam(res){
+function leftTeam(teamId, user){
     return {
         type: LEAVE_TEAM,
-        res: res,
+        teamId: teamId,
+        user: user,
+        loading: false
+    }
+}
+
+function createdTeam(response){
+    return {
+        type: NEW_TEAM,
+        teamId: response._id,
+        name: response.name,
+        challenges: response.challenges,
+        users: response.users,
         loading: false
     }
 }

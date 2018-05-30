@@ -21,24 +21,38 @@ const games = (state = [], action) => {
     case NEW_TEAM:
         return Object.assign({}, state, {
             ...state,
-            byId: [...state.byId, ...action.team]
+            byId: [...state.byId, ...[{
+              teamId: action.teamId,
+              name: action.name,
+              users: action.users,
+              nbUsers: action.users.length,
+              challenges: action.challenges,
+              nbChalleneges: action.challenges.length,
+              joined: true
+            }]]
         })
     case JOIN_TEAM:
         return Object.assign({}, state, {
             ...state,
             byId: state.byId.map((team) => {
-              if (team.id === action.teamId) {
+              if (team.teamId === action.teamId) {
                 return Object.assign({}, team, {
                   ...team,
-                  users: team.users.push({
+                  users: [...team.users, ...[{
                     _id: action.user.userId,
                     name: action.user.name,
-                    MAC: action.user.mac
-                  }),
-                  nbUsers: state.users.length,
+                    MAC: action.user.mac,
+                  }]],
+                  nbUsers: team.nbUsers = team.nbUsers + 1,
+                  joined: true
                 })
               } else {
-                return team
+                return Object.assign({}, team, {
+                  ...team,
+                  users: team.users.filter((user, index) => user._id !== action.user.userId),
+                  nbUsers: team.users.length,
+                  joined: false
+                })
               }
             })
         })
@@ -46,13 +60,11 @@ const games = (state = [], action) => {
         return Object.assign({}, state, {
             ...state,
             byId: state.byId.map((team) => {
-              if (team.id === action.teamId) {
+              if (team.teamId === action.teamId) {
                 return Object.assign({}, team, {
-                  users: team.users.map((user) => {
-                    if (user._id !== action.userId){
-                      return user;
-                    }
-                  })
+                  users: team.users.filter((user, index) => user._id !== action.user.userId),
+                  nbUsers: team.nbUsers = team.nbUsers - 1,
+                  joined: false
                 })
               } else {
                 return team;
@@ -65,11 +77,11 @@ const games = (state = [], action) => {
             byId: state.byId.map((team) => {
               if (team.id === action.team.teamId) {
                 return Object.assign({}, team, {
-                  displayed: action.selected
+                  displayed: action.displayed
                 })
               } else {
                 return Object.assign({}, team, {
-                  displayed: !action.selected
+                  displayed: !action.displayed
                 })
               }
             })
