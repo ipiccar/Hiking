@@ -21,8 +21,8 @@ class JoinGame extends Component {
     };
 
     pressScan() {
-        this.fetchGame("5b0c9d1ba608981e518ba568", this.props.profile.userId);
-        //this.state.scanOn ? this.setState({scanOn:false}) : this.setState({scanOn:true});
+        //this.fetchGame("5b0c9d1ba608981e518ba568", this.props.profile.userId);
+        this.state.scanOn ? this.setState({scanOn:false}) : this.setState({scanOn:true});
     }
 
     onSuccess(e) {
