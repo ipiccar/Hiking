@@ -16,12 +16,12 @@ class JoinGame extends Component {
     }
 
     state={
-      qrCode: "5b0c9d1ba608981e518ba568",
+      qrCode: "",
       scanOn: false
     };
 
     pressScan() {
-        this.fetchGame(this.state.qrCode, this.props.profile.userId);
+        //this.fetchGame("5b0c9d1ba608981e518ba568", this.props.profile.userId);
         this.state.scanOn ? this.setState({scanOn:false}) : this.setState({scanOn:true});
     }
 
@@ -51,7 +51,7 @@ class JoinGame extends Component {
                         {scanOn && !hasGame ?  (
                             <View style={{padding:25}}>
                               <QRCodeScanner
-                              onRead={this.onSuccess}
+                              onRead={this.onSuccess.bind(this)}
                               topContent={""}
                               bottomContent={""}
                               />

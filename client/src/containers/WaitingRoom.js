@@ -4,6 +4,8 @@ import { Header, Card, CardSection, Input, Button } from "../components";
 import { connect } from 'react-redux';
 import {launchRefresh} from '../actions/refresh'
 import {initNotifications} from '../actions/notifications'
+import { Actions } from "react-native-router-flux";
+
 
 class WaitingRoom extends Component {
 
@@ -11,12 +13,13 @@ class WaitingRoom extends Component {
       super(props);
       this.state={isAdmin:false, hikerName:""};
       this.refresher=this.refresher.bind(this);
-      this.initNotification=this.initNotification.bind(this);
+      this.getNotifications=this.getNotifications.bind(this);
+      this.getNotifications()
   }
 
 
-    pressJoin() {
-        ;
+    startGame() {
+        Actions.map();
     }
 
     refresher(){
@@ -25,12 +28,12 @@ class WaitingRoom extends Component {
       this.props.dispatch(launchRefresh(this.props.selectedGame.gameId, this.props.selectedTeam.teamId))
     }
 
-    initNotification(){
+    getNotifications(){
       this.props.dispatch(initNotifications(this.props.selectedGame.gameId))
     }
 
     render() {
-      initNotification();
+      if (this.props.notifications.byId === undefined){
         return (
             <View style={{flex:1}}>
                 <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
@@ -40,12 +43,26 @@ class WaitingRoom extends Component {
                 <View style={styles.card}>
                     <Text style={styles.title}>Waiting for the game master</Text>
                     <ImageBackground source={require('../images/loading-dots.gif')} style={{width:150, height:150}}/>
+                </View>
+            </View>
+        );
+      } else {
+        return (
+            <View style={{flex:1}}>
+                <ImageBackground source={require('../images/background.jpeg')} style={styles.image}>
+                <ImageBackground source={require('../images/BH_logo_white.png')} style={{width:250, height:200}}/>
+                <ImageBackground source={require('../images/people_and_trophy.png')} style={{width:300, height:100}}/>
+                </ImageBackground>
+                <View style={styles.card}>
+                    <Text style={styles.title}>Game is ready</Text>
                     <View style={{ flex:1, flexDirection:"row", width:"100%", backgroundColor:"#DED3BF"}}>
-                      <Button onPress={()=> this.startGame()} text="Start game" disabled={this.props.notifications !== undefined ? true : false}/>
+                      <Button onPress={()=> this.startGame()} text="Start game"/>
                     </View>
                 </View>
             </View>
         );
+      }
+
     }
 }
 
@@ -68,7 +85,7 @@ const styles = {
         backgroundColor: '#DED3BF',
         flexDirection:"column",
         alignItems:"center",
-        justifyContent:"center",
+        justifyContent:"space-around",
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
         shadowOpacity: 0.1,

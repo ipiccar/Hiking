@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/debug/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/hendrikdebeuf2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be37bdd82180fda8115a908faf86a44c/res/values-land/values-land.xml",
+                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

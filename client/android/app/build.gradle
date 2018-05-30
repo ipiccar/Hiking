@@ -101,6 +101,7 @@ android {
         applicationId "com.hiking"
         minSdkVersion 16
         targetSdkVersion 27
+        multiDexEnabled = true
         versionCode 1
         versionName "1.0"
         ndk {
@@ -148,9 +149,7 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-fetch-blob')
     compile project(':react-native-camera')
-    compile project(':react-native-sha256')
     implementation(project(':react-native-maps')){
                 exclude group: 'com.google.android.gms', module: 'play-services-base'
                 exclude group: 'com.google.android.gms', module: 'play-services-maps'

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

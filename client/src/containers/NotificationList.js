@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput} from 'react-native';
+import { Text, View, TouchableOpacity, Image, ImageBackground, Modal, TouchableHighlight, TextInput, ScrollView} from 'react-native';
 import { connect } from 'react-redux';
 import { displayTeam } from "../actions/selectedTeam"
 import { Button, Button2 } from "../components";
@@ -26,12 +26,13 @@ class NotificationList extends Component{
             <View style={styles.container}>
               <Text style={styles.title}>Notifications</Text>
               <ScrollView contentContainerStyle={{flexGrow:1}} style={{paddingLeft:40, paddingRight:40}}>
-                  {this.props.notifications.notifications.map(notif => (
-                      <View key={notif._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
-                          <View style={{flexDirection:"column",paddingLeft:20}}>
-                              <Text style={styles.text}> {notif.description} </Text>
-                          </View>
-                      </View>
+                  {this.props.notifications.byId.map(notif => (
+                    <View key={notif._id} style={{alignItems:"center",flexDirection:"row", justifyContent:"space-between", padding:30, borderBottomWidth:1,borderBottomColor:"#8F6C5C"}}>
+                        <Image source={require('../images/icon_notification_ringing_brown.png')} style={{width:60, height:56, marginRight:20}}/>
+                        <View style={{flexDirection:"column",paddingLeft:20}}>
+                            <Text style={styles.text}> {notif.description} </Text>
+                        </View>
+                    </View>
                   ))}
               </ScrollView>
             </View>
@@ -68,10 +69,15 @@ const styles = {
         flex: 1,
         backgroundColor: '#DED3BF',
         flexDirection:"column",
-        alignItems:"flex-start",
-        justifyContent:"flex-start",
-
-
+        alignItems:"stretch",
+        justifyContent:"center"
+    },
+    loading: {
+        flex: 1,
+        backgroundColor: '#DED3BF',
+        flexDirection:"column",
+        alignItems:"center",
+        justifyContent:"center"
     },
     title:{
         textAlign:"center",
@@ -88,29 +94,9 @@ const styles = {
         color: '#000',
         margin:10
     },
-    buttonContainer: {
-        width:"50%",
-        height:"70%",
-        backgroundColor: '#5B343C',
-        borderRadius: 30,
-        marginBottom:20
-    },
-    buttonText: {
-        color: '#fff',
-        textAlign: 'center',
-        paddingTop:10,
-        fontSize: 22,
-        fontWeight: '700'
-    },
-    text: {
-        color: '#5B343C',
-    },
-    modal: {
-        width:"50%",
-        height:"50%",
-        backgroundColor: '#5B343C',
-        borderRadius: 30,
-    }
+      text: {
+          color: '#5B343C',
+      },
 };
 
 const mapStateToProps = (state, props) => ({
@@ -120,6 +106,7 @@ const mapStateToProps = (state, props) => ({
   teams: state.teams,
   selectedTeam: state.selectedTeam,
   dataReducer: state.dataReducer,
+  notifications: state.notifications
 })
 
 export default connect(mapStateToProps)(NotificationList)

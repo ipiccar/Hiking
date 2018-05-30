@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83f94c8fc2bbfdbb0f0a0042156c58df/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

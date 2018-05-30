@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Icarus/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a6db078af468de0bbb3813089689fbcf/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -6,6 +6,7 @@ import teams from "./teams"
 import selectedGame from "./selectedGame"
 import selectedTeam from "./selectedTeam"
 import selectedChallenge from "./selectedChallenge"
+import notifications from "./notifications"
 import {
   DATA_AVAILABLE,
   LOADING,
@@ -86,7 +87,8 @@ const rootReducer = combineReducers({
   teams,
   selectedGame,
   selectedTeam,
-  selectedChallenge
+  selectedChallenge,
+  notifications
   // ,[ANOTHER REDUCER], [ANOTHER REDUCER] ....
 })
 

@@ -8,10 +8,14 @@ const selectedGame = (state = [], action) => {
     case INIT_NOTIFICATIONS:
     return Object.assign({}, state, {
       ...state,
-        notificationId: action.notificationId,
-        description: action.description,
-        timestamp: action.timestamp,
-        teams: action.teams
+      byId : action.notifications.map((notification) => {
+        return Object.assign({}, notification, {
+          notificationId: notification._id,
+          description: notification.description,
+          timestamp: notification.timestamp,
+          teams: notification.teams
+        })
+      }),
     })
     //other actions
     default:

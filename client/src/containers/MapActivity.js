@@ -9,7 +9,6 @@ import LegendActivity from "../containers/LegendActivity";
 import marker_dark1 from '../images/marker_dark1.png';
 import geolib from 'geolib';
 
-
 const { width, height } = Dimensions.get('window');
 
 const ASPECT_RATIO = width / height;
@@ -19,8 +18,34 @@ const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
 
+async function requestLocationPermission() {
+  try {
+    const granted = await PermissionsAndroid.request(
+      PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+      {
+        'title': 'Map location Permission',
+        'message': 'Bearlock Holmez needs access to your location ' +
+                   'so you can use the map.'
+      }
+    )
+    if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+      console.log("You can use the map")
+    } else {
+      console.log("Location permission denied")
+    }
+  } catch (err) {
+    console.warn(err)
+  }
+}
 
 class MapActivity extends React.Component {
+
+  constructor(props) {
+      super(props);
+      this.checkChallenge=this.checkChallenge.bind(this);
+      requestLocationPermission();
+  }
+
     state = {
         //urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3812/{z}/{y}/{x}.png',
         urlTemplate: 'http://www.ngi.be/cartoweb/1.0.0/topo/default/3857/{z}/{y}/{x}.png',
@@ -91,15 +116,43 @@ class MapActivity extends React.Component {
       this.setState({toggled:true});
     };
 
+    showNotifications(){
+        console.log("notifications");
+        Actions.notifications();
+    }
+
+    startChallenge(poi){
+        Actions.challenge();
+        console.log("start challenge");
+    }
+
+    checkCloseEnough(poi){
+        console.log("check");
+        if(this.state.userLocation!=undefined){
+            let distance = geolib.getDistance({latitude: poi.coordX, longitude: poi.coordY}, {latitude:this.state.userLocation.latitude, longitude:this.state.userLocation.longitude});
+            console.log("distance : " + distance);
+            return distance <= poi.notificationRange;
+        }
+        return false;
+    }
+
+    checkChallenge(poiId){
+      this.props.selectedTeam.challenges.map((challenge) => {
+        if (challenge._id === poiId){
+          this.props.dispatch(selectChallenge(challenge))
+        }
+      })
+    }
+
     render() {
-        const { isOffline } = this.state.profile.isOffline;
+        const isOffline = this.state.profile.isOffline;
         const {routes} = this.context;
         /*const urlTemplate = isOffline
         ? this.state.offlineUrlTemplate
         : this.state.urlTemplate*/
         const urlTemplate = this.state.urlTemplate
 
-        if (this.state.profile.type == "GM" && this.state.profile.isEditing) {
+        if (this.props.profile.userType == "gm" && this.props.profile.isEditing) {
           return (
               <View style={styles.container}>
                 <Drawer
@@ -155,7 +208,7 @@ class MapActivity extends React.Component {
                 </Drawer>
               </View>
           )
-        } else if (this.state.profile.type == "GM" && !this.state.profile.isEditing) {
+        } else if (this.props.profile.userType == "gm" && !this.props.profile.isEditing) {
           return (
               <View style={styles.container}>
                 <Drawer
@@ -207,7 +260,7 @@ class MapActivity extends React.Component {
                   <IgnMap
                       onRegionChange = {this.handleMapRegionChange}
                       urlTemplate = {urlTemplate}>
-                      {this.state.selectedGame.pois.map((poi)=>{
+                      {this.props.selectedGame.pois.map((poi)=>{
                         <Marker
                        coordinate={{
                           latitude: LATITUDE + SPACE,
@@ -223,7 +276,7 @@ class MapActivity extends React.Component {
               </View>
           )
         }
-        else if (this.state.profile.type == "PLAYER") {
+        else if (this.props.profile.userType == "player") {
             return (
                 <View style={styles.container}>
                   <Drawer
@@ -273,7 +326,7 @@ class MapActivity extends React.Component {
                     <IgnMap
                         onRegionChange = {this.handleMapRegionChange}
                         urlTemplate = {urlTemplate}>
-                        {this.state.selectedGame.pois.map((poi)=>{
+                        {this.props.selectedGame.pois.map((poi)=>{
                             return (<Marker
                             key={poi._id}
                                 coordinate={{latitude:poi.coordX, longitude:poi.coordY}}>
@@ -301,53 +354,7 @@ class MapActivity extends React.Component {
             )
           }
     }
-/*
-    {this.state.selectedGame.pois.map((poi)=>{
-        console.log(poi.coordX);
-        console.log(poi.coordY);
-      <MapView.Marker
-        coordinate={{
-            latitude: poi.coordX + SPACE,
-            longitude: poi.coordY - SPACE,
-      }}
-      centerOffset={{ x: -42, y: -60 }}>
-        <Callout>
-          <View style={{height:100, width:200}}>
-              <Text>{poi.name}</Text>
-              <Text>{poi.notificationMessage}</Text>
-              <TouchableOpacity enable={this.checkCloseEnough(poi)}><Text>Start challenge !</Text></TouchableOpacity>
-          </View>
-        </Callout>
 
-      </MapView.Marker>
-    })} */
-
-    showNotifications(){
-        console.log("notifications");
-        Actions.notifications();
-    }
-
-    startChallenge(poi){
-        console.log("start challenge");
-    }
-
-    checkCloseEnough(poi){
-        console.log("check");
-        if(this.state.userLocation!=undefined){
-            let distance = geolib.getDistance({latitude: poi.coordX, longitude: poi.coordY}, {latitude:this.state.userLocation.latitude, longitude:this.state.userLocation.longitude});
-            console.log("distance : " + distance);
-            return distance <= poi.notificationRange;
-        }
-        return false;
-    }
-
-    checkChallenge(poiId){
-      this.props.selectedTeam.challenges.map((challenge) => {
-        if (challenge._id === poiId){
-          this.props.dispatch(selectChallenge(challenge))
-        }
-      })
-    }
 }
 
 

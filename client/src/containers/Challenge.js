@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { Actions } from "react-native-router-flux";
 import { Button } from "../components";
 import Camera from 'react-native-camera';
-import RNFetchBlob from 'react-native-fetch-blob';
 
 
 class Challenge extends Component {
@@ -41,18 +40,6 @@ class Challenge extends Component {
     takePicture() {
         this.camera.capture()
             .then((picture) => {
-
-                RNFetchBlob.fetch('POST', 'http://10.113.51.23:3000/upload', {
-                    '   Content-Type' : 'multipart/form-data',
-                        }, [
-                        { name : 'avatar-foo', filename : 'avatar-foo.png', type:'image/jpeg', data: RNFetchBlob.wrap(picture.path)},
-                  ]).then((resp) => {
-                    // ...
-                  }).catch((err) => {
-                    // ...
-                  })
-
-
                 const data = new FormData();
                 //data.append('name', 'testName'); // you can append anyone.
                 data.append('file', {

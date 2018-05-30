@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Image, ImageBackground, Text, TextInput, TouchableOpacity} from "react-native";
-import { sha256 } from 'react-native-sha256';
 import { connect } from 'react-redux';
 import {fetch_admin_login} from "../actions/action_users";
 

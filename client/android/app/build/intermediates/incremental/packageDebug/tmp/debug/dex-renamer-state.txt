@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-#Tue May 29 17:38:25 CEST 2018
-base.0=/Users/hendrikdebeuf2/node/Hiking/client/android/app/build/intermediates/transforms/dexMerger/debug/0
-=======
-#Tue May 29 22:27:45 CEST 2018
+#Wed May 30 20:16:09 CEST 2018
 base.0=/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/transforms/dexMerger/debug/0
->>>>>>> master
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/Icarus/Desktop/Hiking/client/android/app/build/intermediates/transforms/dexMerger/debug/0
