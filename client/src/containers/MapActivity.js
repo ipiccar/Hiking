@@ -21,7 +21,7 @@ const SPACE = 0.01;
 async function requestLocationPermission() {
   try {
     const granted = await PermissionsAndroid.request(
-      PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+      PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
       {
         'title': 'Map location Permission',
         'message': 'Bearlock Holmez needs access to your location ' +

@@ -31,7 +31,7 @@ const RouterComponent = ({ store }) => {
                   <Scene key="players" component={PlayerList} title="Player List" hideNavBar={true} />
                   <Scene key="waitingroom" component={WaitingRoom} title="Waiting Room" hideNavBar={true} />
                   <Scene key="map" component={MapActivity} title="Map" hideNavBar={true}/>
-                  <Scene key="legend" component={LegendActivity} title="Legend" hideNavBar={true}/>
+                  <Scene key="legend" component={LegendActivity} title="Legend" hideNavBar={true} />
                   <Scene key="notifications" component={NotificationList} title="Notifications" hideNavBar={true}/>
                   <Scene key="challenge" component={Challenge} title="Challenge" hideNavBar={true} />
               </Stack>

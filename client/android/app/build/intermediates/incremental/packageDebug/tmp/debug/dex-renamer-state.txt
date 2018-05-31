@@ -1,4 +1,4 @@
-#Wed May 30 01:08:00 CEST 2018
+#Thu May 31 17:01:13 CEST 2018
 base.0=/Users/hendrikdebeuf2/Desktop/Hiking 3/client/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes2.dex
 renamed.1=classes2.dex

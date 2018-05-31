@@ -1,5 +1,5 @@
-export const url = "http://193.190.248.152:3000/";
-//export const url = "http://10.113.51.23:3000/";
+//export const url = "http://193.190.248.152:3000/";
+export const url = "http://10.113.51.23:3000/";
 //export const url = "http://localhost:3000/";
 
 

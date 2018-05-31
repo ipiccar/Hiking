@@ -3,10 +3,30 @@ import { View, Image } from 'react-native';
 import marker_dark1 from '../images/marker_dark1.png';
 import marker_dark2 from '../images/marker_dark2.png';
 
+const markerImages = [
+  require('../images/marker_dark1.png'),
+  require('../images/marker_dark2.png')
+];
+
+function cacheImages(images) {
+  return images.map(image => {
+    if (typeof image === 'string') {
+      return Image.prefetch(image);
+    } else {
+      return Asset.fromModule(image).downloadAsync();
+    }
+  });
+}
+
+async function _loadAssetsAsync() { //get all required images in cache before page load
+  const imageAssets = cacheImages(markerImages);
+  await Promise.all([...imageAssets]);
+}
+
 const CustomMarker  = ({type, children}) =>
 {const {buttonStyle, textStyle} = styles;
 
-
+_loadAssetsAsync()
 
   switch (type) {
     case 'type1':
@@ -14,14 +34,14 @@ const CustomMarker  = ({type, children}) =>
       <View>
         <Image
           style={{width: 70, height: 70}}
-          source={require('../images/marker_dark1.png')}/>
+          source={markerImages[0]}/>
       </View>
    )
      break;
      case 'type2':
      return (
        <View>
-         <Image source={require('../images/marker_dark2.png')}/>
+         <Image source={markerImages[1]}/>
        </View>
     )
       break;
